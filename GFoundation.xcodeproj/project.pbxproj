@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096CA169A2BF4B6CAE66E7AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1609FE59DD0F45C5A05342B1 /* libPods.a */; };
+		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
+		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
+		E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
+		E683B9DE19B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9DC19B6E9EE00BADEAD /* InfoPlist.strings */; };
+		E683B9E019B6E9EE00BADEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9DF19B6E9EE00BADEAD /* main.m */; };
+		E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */; };
+		E683B9E719B6E9EE00BADEAD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */; };
+		E683B9EA19B6E9EE00BADEAD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */; };
+		E683B9ED19B6E9EE00BADEAD /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9EC19B6E9EE00BADEAD /* GViewController.m */; };
+		E683B9EF19B6E9EE00BADEAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E683B9EE19B6E9EE00BADEAD /* Images.xcassets */; };
+		E683B9F619B6E9EE00BADEAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9F519B6E9EE00BADEAD /* XCTest.framework */; };
+		E683B9F719B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
+		E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
+		E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */; };
+		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
+		E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */; };
+		E683BA3119B6EB6B00BADEAD /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1019B6EB6B00BADEAD /* NSDataExtensions.m */; };
+		E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1219B6EB6B00BADEAD /* NSDictionaryExtensions.m */; };
+		E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */; };
+		E683BA3419B6EB6B00BADEAD /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */; };
+		E683BA3519B6EB6B00BADEAD /* UIView+CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */; };
+		E683BA3619B6EB6B00BADEAD /* GBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1B19B6EB6B00BADEAD /* GBaseCollectionViewCell.m */; };
+		E683BA3719B6EB6B00BADEAD /* GBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1D19B6EB6B00BADEAD /* GBaseTableViewCell.m */; };
+		E683BA3819B6EB6B00BADEAD /* GTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1F19B6EB6B00BADEAD /* GTableViewDelegate.m */; };
+		E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2219B6EB6B00BADEAD /* GTMBase64.m */; };
+		E683BA3A19B6EB6B00BADEAD /* GHTMLTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2619B6EB6B00BADEAD /* GHTMLTable.m */; };
+		E683BA3B19B6EB6B00BADEAD /* GHTMLTableContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2819B6EB6B00BADEAD /* GHTMLTableContext.m */; };
+		E683BA3C19B6EB6B00BADEAD /* GHTMLTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2A19B6EB6B00BADEAD /* GHTMLTableData.m */; };
+		E683BA3D19B6EB6B00BADEAD /* GHTMLTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */; };
+		E683BA3E19B6EB6B00BADEAD /* GHTMLTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E683B9F919B6E9EE00BADEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E683B9C819B6E9EE00BADEAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E683B9CF19B6E9EE00BADEAD;
+			remoteInfo = GFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1609FE59DD0F45C5A05342B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FCC7DC0DA0F40DDB0666046 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E683B9D719B6E9EE00BADEAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E683B9DB19B6E9EE00BADEAD /* GFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundation-Info.plist"; sourceTree = "<group>"; };
+		E683B9DD19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E683B9DF19B6E9EE00BADEAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E683B9E119B6E9EE00BADEAD /* GFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAppDelegate.h; sourceTree = "<group>"; };
+		E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
+		E683B9E619B6E9EE00BADEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E683B9E919B6E9EE00BADEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E683B9EB19B6E9EE00BADEAD /* GViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
+		E683B9EC19B6E9EE00BADEAD /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
+		E683B9EE19B6E9EE00BADEAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E683B9F519B6E9EE00BADEAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
+		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
+		E683BA0D19B6EB6B00BADEAD /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
+		E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
+		E683BA0F19B6EB6B00BADEAD /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataExtensions.h; sourceTree = "<group>"; };
+		E683BA1019B6EB6B00BADEAD /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataExtensions.m; sourceTree = "<group>"; };
+		E683BA1119B6EB6B00BADEAD /* NSDictionaryExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtensions.h; sourceTree = "<group>"; };
+		E683BA1219B6EB6B00BADEAD /* NSDictionaryExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryExtensions.m; sourceTree = "<group>"; };
+		E683BA1319B6EB6B00BADEAD /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E683BA1519B6EB6B00BADEAD /* NSStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtensions.h; sourceTree = "<group>"; };
+		E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensions.m; sourceTree = "<group>"; };
+		E683BA1719B6EB6B00BADEAD /* UIView+CGRectExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRectExtension.h"; sourceTree = "<group>"; };
+		E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRectExtension.m"; sourceTree = "<group>"; };
+		E683BA1A19B6EB6B00BADEAD /* GBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		E683BA1B19B6EB6B00BADEAD /* GBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		E683BA1C19B6EB6B00BADEAD /* GBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBaseTableViewCell.h; sourceTree = "<group>"; };
+		E683BA1D19B6EB6B00BADEAD /* GBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBaseTableViewCell.m; sourceTree = "<group>"; };
+		E683BA1E19B6EB6B00BADEAD /* GTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTableViewDelegate.h; sourceTree = "<group>"; };
+		E683BA1F19B6EB6B00BADEAD /* GTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTableViewDelegate.m; sourceTree = "<group>"; };
+		E683BA2119B6EB6B00BADEAD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		E683BA2219B6EB6B00BADEAD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		E683BA2319B6EB6B00BADEAD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E683BA2519B6EB6B00BADEAD /* GHTMLTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTable.h; sourceTree = "<group>"; };
+		E683BA2619B6EB6B00BADEAD /* GHTMLTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTable.m; sourceTree = "<group>"; };
+		E683BA2719B6EB6B00BADEAD /* GHTMLTableContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableContext.h; sourceTree = "<group>"; };
+		E683BA2819B6EB6B00BADEAD /* GHTMLTableContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableContext.m; sourceTree = "<group>"; };
+		E683BA2919B6EB6B00BADEAD /* GHTMLTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableData.h; sourceTree = "<group>"; };
+		E683BA2A19B6EB6B00BADEAD /* GHTMLTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableData.m; sourceTree = "<group>"; };
+		E683BA2B19B6EB6B00BADEAD /* GHTMLTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableHelper.h; sourceTree = "<group>"; };
+		E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableHelper.m; sourceTree = "<group>"; };
+		E683BA2D19B6EB6B00BADEAD /* GHTMLTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableRow.h; sourceTree = "<group>"; };
+		E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableRow.m; sourceTree = "<group>"; };
+		E683BA2F19B6EB6B00BADEAD /* GHTMLTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTypedef.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E683B9CD19B6E9EE00BADEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */,
+				E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
+				E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */,
+				096CA169A2BF4B6CAE66E7AD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E683B9F119B6E9EE00BADEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683B9F619B6E9EE00BADEAD /* XCTest.framework in Frameworks */,
+				E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
+				E683B9F719B6E9EE00BADEAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E683B9C719B6E9EE00BADEAD = {
+			isa = PBXGroup;
+			children = (
+				E683B9D919B6E9EE00BADEAD /* GFoundation */,
+				E683B9FB19B6E9EE00BADEAD /* GFoundationTests */,
+				E683B9D219B6E9EE00BADEAD /* Frameworks */,
+				E683B9D119B6E9EE00BADEAD /* Products */,
+				4FCC7DC0DA0F40DDB0666046 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E683B9D119B6E9EE00BADEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E683B9D019B6E9EE00BADEAD /* GFoundation.app */,
+				E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E683B9D219B6E9EE00BADEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E683B9D319B6E9EE00BADEAD /* Foundation.framework */,
+				E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */,
+				E683B9D719B6E9EE00BADEAD /* UIKit.framework */,
+				E683B9F519B6E9EE00BADEAD /* XCTest.framework */,
+				1609FE59DD0F45C5A05342B1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E683B9D919B6E9EE00BADEAD /* GFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA0B19B6EB5D00BADEAD /* GFoundation */,
+				E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */,
+				E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */,
+				E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */,
+				E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */,
+				E683B9EB19B6E9EE00BADEAD /* GViewController.h */,
+				E683B9EC19B6E9EE00BADEAD /* GViewController.m */,
+				E683B9EE19B6E9EE00BADEAD /* Images.xcassets */,
+				E683B9DA19B6E9EE00BADEAD /* Supporting Files */,
+			);
+			path = GFoundation;
+			sourceTree = "<group>";
+		};
+		E683B9DA19B6E9EE00BADEAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E683B9DB19B6E9EE00BADEAD /* GFoundation-Info.plist */,
+				E683B9DC19B6E9EE00BADEAD /* InfoPlist.strings */,
+				E683B9DF19B6E9EE00BADEAD /* main.m */,
+				E683B9E119B6E9EE00BADEAD /* GFoundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E683B9FB19B6E9EE00BADEAD /* GFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */,
+				E683B9FC19B6E9EE00BADEAD /* Supporting Files */,
+			);
+			path = GFoundationTests;
+			sourceTree = "<group>";
+		};
+		E683B9FC19B6E9EE00BADEAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */,
+				E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E683BA0B19B6EB5D00BADEAD /* GFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA0C19B6EB6B00BADEAD /* Extensions */,
+				E683BA1919B6EB6B00BADEAD /* GBaseView */,
+				E683BA2019B6EB6B00BADEAD /* GTMBase64 */,
+				E683BA2419B6EB6B00BADEAD /* HTMLTableHelper */,
+			);
+			path = GFoundation;
+			sourceTree = "<group>";
+		};
+		E683BA0C19B6EB6B00BADEAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA0D19B6EB6B00BADEAD /* NSArrayExtensions.h */,
+				E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */,
+				E683BA0F19B6EB6B00BADEAD /* NSDataExtensions.h */,
+				E683BA1019B6EB6B00BADEAD /* NSDataExtensions.m */,
+				E683BA1119B6EB6B00BADEAD /* NSDictionaryExtensions.h */,
+				E683BA1219B6EB6B00BADEAD /* NSDictionaryExtensions.m */,
+				E683BA1319B6EB6B00BADEAD /* NSString+MD5.h */,
+				E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */,
+				E683BA1519B6EB6B00BADEAD /* NSStringExtensions.h */,
+				E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */,
+				E683BA1719B6EB6B00BADEAD /* UIView+CGRectExtension.h */,
+				E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E683BA1919B6EB6B00BADEAD /* GBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA1A19B6EB6B00BADEAD /* GBaseCollectionViewCell.h */,
+				E683BA1B19B6EB6B00BADEAD /* GBaseCollectionViewCell.m */,
+				E683BA1C19B6EB6B00BADEAD /* GBaseTableViewCell.h */,
+				E683BA1D19B6EB6B00BADEAD /* GBaseTableViewCell.m */,
+				E683BA1E19B6EB6B00BADEAD /* GTableViewDelegate.h */,
+				E683BA1F19B6EB6B00BADEAD /* GTableViewDelegate.m */,
+			);
+			path = GBaseView;
+			sourceTree = "<group>";
+		};
+		E683BA2019B6EB6B00BADEAD /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA2119B6EB6B00BADEAD /* GTMBase64.h */,
+				E683BA2219B6EB6B00BADEAD /* GTMBase64.m */,
+				E683BA2319B6EB6B00BADEAD /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		E683BA2419B6EB6B00BADEAD /* HTMLTableHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E683BA2519B6EB6B00BADEAD /* GHTMLTable.h */,
+				E683BA2619B6EB6B00BADEAD /* GHTMLTable.m */,
+				E683BA2719B6EB6B00BADEAD /* GHTMLTableContext.h */,
+				E683BA2819B6EB6B00BADEAD /* GHTMLTableContext.m */,
+				E683BA2919B6EB6B00BADEAD /* GHTMLTableData.h */,
+				E683BA2A19B6EB6B00BADEAD /* GHTMLTableData.m */,
+				E683BA2B19B6EB6B00BADEAD /* GHTMLTableHelper.h */,
+				E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */,
+				E683BA2D19B6EB6B00BADEAD /* GHTMLTableRow.h */,
+				E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */,
+				E683BA2F19B6EB6B00BADEAD /* GHTMLTypedef.h */,
+			);
+			path = HTMLTableHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E683B9CF19B6E9EE00BADEAD /* GFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E683BA0519B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundation" */;
+			buildPhases = (
+				898FAD5D7C2845B2BC0E9EE2 /* Check Pods Manifest.lock */,
+				E683B9CC19B6E9EE00BADEAD /* Sources */,
+				E683B9CD19B6E9EE00BADEAD /* Frameworks */,
+				E683B9CE19B6E9EE00BADEAD /* Resources */,
+				3CD55FD1406A473B8AD051BF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFoundation;
+			productName = GFoundation;
+			productReference = E683B9D019B6E9EE00BADEAD /* GFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E683B9F319B6E9EE00BADEAD /* GFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E683BA0819B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundationTests" */;
+			buildPhases = (
+				E683B9F019B6E9EE00BADEAD /* Sources */,
+				E683B9F119B6E9EE00BADEAD /* Frameworks */,
+				E683B9F219B6E9EE00BADEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E683B9FA19B6E9EE00BADEAD /* PBXTargetDependency */,
+			);
+			name = GFoundationTests;
+			productName = GFoundationTests;
+			productReference = E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E683B9C819B6E9EE00BADEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = G;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ghost;
+				TargetAttributes = {
+					E683B9F319B6E9EE00BADEAD = {
+						TestTargetID = E683B9CF19B6E9EE00BADEAD;
+					};
+				};
+			};
+			buildConfigurationList = E683B9CB19B6E9EE00BADEAD /* Build configuration list for PBXProject "GFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E683B9C719B6E9EE00BADEAD;
+			productRefGroup = E683B9D119B6E9EE00BADEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E683B9CF19B6E9EE00BADEAD /* GFoundation */,
+				E683B9F319B6E9EE00BADEAD /* GFoundationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E683B9CE19B6E9EE00BADEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683B9EA19B6E9EE00BADEAD /* Main_iPad.storyboard in Resources */,
+				E683B9EF19B6E9EE00BADEAD /* Images.xcassets in Resources */,
+				E683B9E719B6E9EE00BADEAD /* Main_iPhone.storyboard in Resources */,
+				E683B9DE19B6E9EE00BADEAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E683B9F219B6E9EE00BADEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CD55FD1406A473B8AD051BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898FAD5D7C2845B2BC0E9EE2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E683B9CC19B6E9EE00BADEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683BA3D19B6EB6B00BADEAD /* GHTMLTableHelper.m in Sources */,
+				E683BA3119B6EB6B00BADEAD /* NSDataExtensions.m in Sources */,
+				E683BA3E19B6EB6B00BADEAD /* GHTMLTableRow.m in Sources */,
+				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
+				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
+				E683BA3619B6EB6B00BADEAD /* GBaseCollectionViewCell.m in Sources */,
+				E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */,
+				E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */,
+				E683B9ED19B6E9EE00BADEAD /* GViewController.m in Sources */,
+				E683BA3A19B6EB6B00BADEAD /* GHTMLTable.m in Sources */,
+				E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */,
+				E683BA3C19B6EB6B00BADEAD /* GHTMLTableData.m in Sources */,
+				E683BA3B19B6EB6B00BADEAD /* GHTMLTableContext.m in Sources */,
+				E683BA3819B6EB6B00BADEAD /* GTableViewDelegate.m in Sources */,
+				E683BA3719B6EB6B00BADEAD /* GBaseTableViewCell.m in Sources */,
+				E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */,
+				E683BA3419B6EB6B00BADEAD /* NSStringExtensions.m in Sources */,
+				E683BA3519B6EB6B00BADEAD /* UIView+CGRectExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E683B9F019B6E9EE00BADEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E683B9FA19B6E9EE00BADEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E683B9CF19B6E9EE00BADEAD /* GFoundation */;
+			targetProxy = E683B9F919B6E9EE00BADEAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E683B9DC19B6E9EE00BADEAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E683B9DD19B6E9EE00BADEAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E683B9E619B6E9EE00BADEAD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E683B9E919B6E9EE00BADEAD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E683B9FF19B6E9EE00BADEAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E683BA0319B6E9EE00BADEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E683BA0419B6E9EE00BADEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E683BA0619B6E9EE00BADEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCC7DC0DA0F40DDB0666046 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
+				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E683BA0719B6E9EE00BADEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCC7DC0DA0F40DDB0666046 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
+				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E683BA0919B6E9EE00BADEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GFoundation.app/GFoundation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GFoundationTests/GFoundationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E683BA0A19B6E9EE00BADEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GFoundation.app/GFoundation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
+				INFOPLIST_FILE = "GFoundationTests/GFoundationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E683B9CB19B6E9EE00BADEAD /* Build configuration list for PBXProject "GFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E683BA0319B6E9EE00BADEAD /* Debug */,
+				E683BA0419B6E9EE00BADEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E683BA0519B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E683BA0619B6E9EE00BADEAD /* Debug */,
+				E683BA0719B6E9EE00BADEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E683BA0819B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E683BA0919B6E9EE00BADEAD /* Debug */,
+				E683BA0A19B6E9EE00BADEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E683B9C819B6E9EE00BADEAD /* Project object */;
+}

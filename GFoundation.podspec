@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "GNU"
   s.author       = { "Ghost233" => "only.yesc@gmail.com" }
   s.source       = { :git => "http://github.com/Ghost233/GFoundation.git", :tag => "0.0.1" }
-  s.source_files  = "Classes/GFoundation/", "Classes/GFoundation/**/*.{h,m}"
+  s.source_files  = "GFoundation/GFoundation/", "GFoundation/GFoundation/**/*.{h,m}"
   s.requires_arc = true
   s.dependency "JSONKit"
   s.dependency "AFNetworking"

@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://http://github.com/Ghost233/GFoundation"
   s.license      = "GNU"
   s.author       = { "Ghost233" => "only.yesc@gmail.com" }
-  s.source       = { :git => "http://github.com/Ghost233/GFoundation.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://github.com/Ghost233/GFoundation.git", :tag => "0.0.2" }
   s.source_files  = "GFoundation/GFoundation/", "GFoundation/GFoundation/**/*.{h,m}"
   s.requires_arc = true
   s.dependency "AFNetworking"

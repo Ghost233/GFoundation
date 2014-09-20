@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://github.com/Ghost233/GFoundation.git", :tag => "0.0.1" }
   s.source_files  = "GFoundation/GFoundation/", "GFoundation/GFoundation/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency "JSONKit"
   s.dependency "AFNetworking"
   s.dependency "ReactiveCocoa"
   s.dependency "Masonry"
@@ -19,5 +18,8 @@ Pod::Spec.new do |s|
   s.dependency "Mantle"
   s.dependency "MBProgressHUD"
   s.dependency "UIColor-Utilities"
+  s.dependency "JSONKit-NoWarning"
+  s.dependency "Toast"
+  s.dependency "ProtocolBuffers"
 
 end

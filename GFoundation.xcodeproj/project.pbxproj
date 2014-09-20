@@ -39,7 +39,6 @@
 		E683BA3D19B6EB6B00BADEAD /* GHTMLTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */; };
 		E683BA3E19B6EB6B00BADEAD /* GHTMLTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */; };
 		E68571D219CD94A30025DD18 /* GAFNetworkingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */; };
-		E68571D519CDA1C30025DD18 /* GFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E68571D419CDA1C30025DD18 /* GFoundation.podspec */; };
 		E68571D819CDB91A0025DD18 /* A.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = E68571D719CDB91A0025DD18 /* A.pb.m */; };
 /* End PBXBuildFile section */
 
@@ -111,7 +110,6 @@
 		E68571D019CD94A30025DD18 /* GAFNetworkingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAFNetworkingHelper.h; path = GFoundation/GFoundation/GAFNetworkingHelper/GAFNetworkingHelper.h; sourceTree = SOURCE_ROOT; };
 		E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GAFNetworkingHelper.m; path = GFoundation/GFoundation/GAFNetworkingHelper/GAFNetworkingHelper.m; sourceTree = SOURCE_ROOT; };
 		E68571D319CDA08C0025DD18 /* GFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFoundation.h; sourceTree = "<group>"; };
-		E68571D419CDA1C30025DD18 /* GFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GFoundation.podspec; path = GFoundation/GFoundation.podspec; sourceTree = "<group>"; };
 		E68571D619CDB91A0025DD18 /* A.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.pb.h; sourceTree = "<group>"; };
 		E68571D719CDB91A0025DD18 /* A.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.pb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,7 +192,6 @@
 		E683B9DA19B6E9EE00BADEAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E68571D419CDA1C30025DD18 /* GFoundation.podspec */,
 				E683B9DB19B6E9EE00BADEAD /* GFoundation-Info.plist */,
 				E683B9DC19B6E9EE00BADEAD /* InfoPlist.strings */,
 				E683B9DF19B6E9EE00BADEAD /* main.m */,
@@ -382,7 +379,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68571D519CDA1C30025DD18 /* GFoundation.podspec in Resources */,
 				E683B9EA19B6E9EE00BADEAD /* Main_iPad.storyboard in Resources */,
 				E683B9EF19B6E9EE00BADEAD /* Images.xcassets in Resources */,
 				E683B9E719B6E9EE00BADEAD /* Main_iPhone.storyboard in Resources */,

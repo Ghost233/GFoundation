@@ -20,12 +20,28 @@ PODS:
   - AFNetworking/UIKit (2.4.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - JSONKit-NoWarning (1.2)
   - Mantle (1.5):
     - Mantle/extobjc
   - Mantle/extobjc (1.5)
   - Masonry (0.5.3)
   - MBProgressHUD (0.9)
+  - Overline-BlocksKit (0.4.0)
   - ProtocolBuffers (1.9.1)
   - ReactiveCocoa (2.3.1):
     - ReactiveCocoa/UI
@@ -42,10 +58,12 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - BlocksKit
   - JSONKit-NoWarning
   - Mantle
   - Masonry
   - MBProgressHUD
+  - Overline-BlocksKit
   - ProtocolBuffers
   - ReactiveCocoa
   - SDWebImage
@@ -54,10 +72,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
   JSONKit-NoWarning: fc8d6dd8ec65e303867d1bd274632fc60a4a8ab9
   Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
   Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
   MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  Overline-BlocksKit: 8e9c3a42712fb4227392f9d005e7da34938d2152
   ProtocolBuffers: 590247bc4ad15e69d52acfcd0b1512485f051e2e
   ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
   SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d

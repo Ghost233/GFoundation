@@ -35,12 +35,16 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - ConciseKit (0.1.2)
+  - crackify (0.0.2)
+  - EGOTableViewPullRefreshAndLoadMore (1.0.4)
   - JSONKit-NoWarning (1.2)
   - Mantle (1.5):
     - Mantle/extobjc
   - Mantle/extobjc (1.5)
   - Masonry (0.5.3)
   - MBProgressHUD (0.9)
+  - OpenUDID (1.0.0)
   - Overline-BlocksKit (0.4.0)
   - ProtocolBuffers (1.9.1)
   - ReactiveCocoa (2.3.1):
@@ -59,10 +63,14 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - BlocksKit
+  - ConciseKit
+  - crackify
+  - EGOTableViewPullRefreshAndLoadMore
   - JSONKit-NoWarning
   - Mantle
   - Masonry
   - MBProgressHUD
+  - OpenUDID
   - Overline-BlocksKit
   - ProtocolBuffers
   - ReactiveCocoa
@@ -73,10 +81,14 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
   BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  ConciseKit: abaee9f102396b59cccdb812b78527c7a24cda61
+  crackify: 2f20db1df30a50ceb0b8270302117add1dbf2910
+  EGOTableViewPullRefreshAndLoadMore: 1dcd0f78d7aa8dee28adf64891b627904be8cd71
   JSONKit-NoWarning: fc8d6dd8ec65e303867d1bd274632fc60a4a8ab9
   Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
   Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
   MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  OpenUDID: 5a23b7477755efc2d7871b57aa79ba3089c40b74
   Overline-BlocksKit: 8e9c3a42712fb4227392f9d005e7da34938d2152
   ProtocolBuffers: 590247bc4ad15e69d52acfcd0b1512485f051e2e
   ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462

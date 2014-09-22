@@ -11,12 +11,12 @@
 
 #import <AFNetworking.h>
 #import <BlocksKit/BlocksKit.h>
-#import <ConciseKit.h>
 #import <EGORefreshTableHeaderView.h>
 #import <LoadMoreTableFooterView.h>
 #import <JSONKit.h>
 #import <MBProgressHUD.h>
 #import <Mantle.h>
+#import <Masonry.h>
 #import <OpenUDID.h>
 #import <Overline+BlocksKit.h>
 #import <ProtocolBuffers.h>

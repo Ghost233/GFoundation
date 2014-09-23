@@ -1,9 +1,9 @@
 //
 //  NSStringExtensions.m
-//  GFoundation
+//  DreamCalendar
 //
 //  Created by Ghost on 13-11-15.
-//  Copyright (c) 2014年 Ghost. All rights reserved.
+//  Copyright (c) 2013年 mydream. All rights reserved.
 //
 
 #import "NSStringExtensions.h"
@@ -110,34 +110,6 @@
             hexStr = [NSString stringWithFormat:@"%@%@",hexStr,newHexStr];
     }
     return hexStr;
-}
-
-+ (NSData *)encrypt:(NSData *)data encryptOrDecrypt:(CCOperation)encryptOperation key:(NSString *)key
-{
-    char keyPtr[kCCKeySizeAES256+1];
-    bzero(keyPtr, sizeof(keyPtr));
-    
-    [key getCString:keyPtr maxLength:sizeof(keyPtr) encoding:NSUTF8StringEncoding];
-    
-    NSUInteger dataLength = [data length];
-    
-    size_t bufferSize = dataLength + kCCBlockSizeAES128;
-    void *buffer = malloc(bufferSize);
-    
-    size_t numBytesEncrypted = 0;
-    CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt, kCCAlgorithmDES,
-                                          kCCOptionPKCS7Padding | kCCOptionECBMode,
-                                          keyPtr, kCCBlockSizeDES,
-                                          NULL,
-                                          [data bytes], dataLength,
-                                          buffer, bufferSize,
-                                          &numBytesEncrypted);
-    if (cryptStatus == kCCSuccess) {
-        return [NSData dataWithBytesNoCopy:buffer length:numBytesEncrypted];
-    }
-    
-    free(buffer);
-    return NULL;
 }
 
 @end

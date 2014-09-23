@@ -1,15 +1,12 @@
 //
 //  NSStringExtensions.h
-//  GFoundation
+//  DreamCalendar
 //
 //  Created by Ghost on 13-11-15.
-//  Copyright (c) 2014年 Ghost. All rights reserved.
+//  Copyright (c) 2013年 mydream. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-
-#import <CommonCrypto/CommonDigest.h>
-#import <CommonCrypto/CommonCrypto.h>
 
 @interface NSString (NSStringExtensionsCustom)
 
@@ -53,7 +50,5 @@
 - (NSString*)decodeBase64WithNSData:(NSData*)data;
 - (NSString *)hexString;
 + (NSString *)hexStringFromString:(NSString *)string;
-
-+ (NSData *)encrypt:(NSData *)data encryptOrDecrypt:(CCOperation)encryptOperation key:(NSString *)key;
 
 @end

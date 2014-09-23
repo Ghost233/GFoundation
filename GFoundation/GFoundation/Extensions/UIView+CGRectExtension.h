@@ -1,9 +1,9 @@
 //
 //  UIView+CGRectExtension.h
-//  GFoundation
+//  DreamCalendar
 //
 //  Created by Ghost on 14-2-6.
-//  Copyright (c) 2014年 Ghost. All rights reserved.
+//  Copyright (c) 2014年 mydream. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

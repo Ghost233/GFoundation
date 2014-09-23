@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		096CA169A2BF4B6CAE66E7AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1609FE59DD0F45C5A05342B1 /* libPods.a */; };
+		E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B5BF719D14B6200AC623A /* NSString+DES.m */; };
+		E60B5BFB19D14B6200AC623A /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B5BF919D14B6200AC623A /* NSTimer+Addition.m */; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
 		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
 		E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
@@ -55,6 +57,10 @@
 /* Begin PBXFileReference section */
 		1609FE59DD0F45C5A05342B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCC7DC0DA0F40DDB0666046 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E60B5BF619D14B6200AC623A /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
+		E60B5BF719D14B6200AC623A /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		E60B5BF819D14B6200AC623A /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		E60B5BF919D14B6200AC623A /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -234,6 +240,10 @@
 		E683BA0C19B6EB6B00BADEAD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E60B5BF619D14B6200AC623A /* NSString+DES.h */,
+				E60B5BF719D14B6200AC623A /* NSString+DES.m */,
+				E60B5BF819D14B6200AC623A /* NSTimer+Addition.h */,
+				E60B5BF919D14B6200AC623A /* NSTimer+Addition.m */,
 				E683BA0D19B6EB6B00BADEAD /* NSArrayExtensions.h */,
 				E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */,
 				E683BA0F19B6EB6B00BADEAD /* NSDataExtensions.h */,
@@ -441,6 +451,7 @@
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
 				E683BA3619B6EB6B00BADEAD /* GBaseCollectionViewCell.m in Sources */,
+				E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */,
 				E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */,
 				E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */,
 				E683B9ED19B6E9EE00BADEAD /* GViewController.m in Sources */,
@@ -449,6 +460,7 @@
 				E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */,
 				E683BA3C19B6EB6B00BADEAD /* GHTMLTableData.m in Sources */,
 				E683BA3B19B6EB6B00BADEAD /* GHTMLTableContext.m in Sources */,
+				E60B5BFB19D14B6200AC623A /* NSTimer+Addition.m in Sources */,
 				E683BA3819B6EB6B00BADEAD /* GTableViewDelegate.m in Sources */,
 				E683BA3719B6EB6B00BADEAD /* GBaseTableViewCell.m in Sources */,
 				E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */,
@@ -592,6 +604,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -606,6 +619,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

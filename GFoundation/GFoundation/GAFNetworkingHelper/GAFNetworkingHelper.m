@@ -8,6 +8,8 @@
 
 #import "GAFNetworkingHelper.h"
 
+#import <AFNetworking.h>
+
 @implementation GAFNetworkingHelper
 
 + (void)protobufRequestWithMethod:(NSString*)method

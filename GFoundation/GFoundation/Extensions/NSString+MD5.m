@@ -1,6 +1,6 @@
 //
 //  NSString+MD5.m
-//  GFoundation
+//  yuanda
 //
 //  Created by Ghost on 14-8-6.
 //  Copyright (c) 2014年 Ghost. All rights reserved.

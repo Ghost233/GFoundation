@@ -1,9 +1,9 @@
 //
 //  NSArrayExtensions.h
-//  GFoundation
+//  DreamCalendar
 //
 //  Created by Ghost on 13-11-15.
-//  Copyright (c) 2014年 Ghost. All rights reserved.
+//  Copyright (c) 2013年 mydream. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

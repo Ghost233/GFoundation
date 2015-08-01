@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GFoundation'
-  s.version      = '0.0.11'
+  s.version      = '0.0.12'
   s.summary      = 'A short description of GFoundation.'
   s.description  = <<-DESC
                    Private Foundation to help coding.
@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'GFoundation/GFoundation/*.{h.m}', 'GFoundation/GFoundation/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'AFNetworking'
-  s.dependency 'ReactiveCocoa'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
   s.dependency 'Mantle'
@@ -21,7 +20,6 @@ Pod::Spec.new do |s|
   s.dependency 'UIColor-Utilities'
   s.dependency 'JSONKit-NoWarning'
   s.dependency 'Toast'
-  s.dependency 'ProtocolBuffers'
   s.dependency 'BlocksKit'
   s.dependency 'Overline-BlocksKit'
   s.dependency 'EGOTableViewPullRefreshAndLoadMore'

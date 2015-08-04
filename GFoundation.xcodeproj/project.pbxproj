@@ -41,7 +41,6 @@
 		E683BA3D19B6EB6B00BADEAD /* GHTMLTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */; };
 		E683BA3E19B6EB6B00BADEAD /* GHTMLTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */; };
 		E68571D219CD94A30025DD18 /* GAFNetworkingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */; };
-		E68571D819CDB91A0025DD18 /* A.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = E68571D719CDB91A0025DD18 /* A.pb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,8 +116,6 @@
 		E68571D019CD94A30025DD18 /* GAFNetworkingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAFNetworkingHelper.h; path = GFoundation/GFoundation/GAFNetworkingHelper/GAFNetworkingHelper.h; sourceTree = SOURCE_ROOT; };
 		E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GAFNetworkingHelper.m; path = GFoundation/GFoundation/GAFNetworkingHelper/GAFNetworkingHelper.m; sourceTree = SOURCE_ROOT; };
 		E68571D319CDA08C0025DD18 /* GFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFoundation.h; sourceTree = "<group>"; };
-		E68571D619CDB91A0025DD18 /* A.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.pb.h; sourceTree = "<group>"; };
-		E68571D719CDB91A0025DD18 /* A.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.pb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +190,6 @@
 				E683BA0B19B6EB5D00BADEAD /* GFoundation */,
 				E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */,
 				E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */,
-				E68571D619CDB91A0025DD18 /* A.pb.h */,
-				E68571D719CDB91A0025DD18 /* A.pb.m */,
 				E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */,
 				E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */,
 				E683B9EB19B6E9EE00BADEAD /* GViewController.h */,
@@ -465,7 +460,6 @@
 				E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */,
 				E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */,
 				E683B9ED19B6E9EE00BADEAD /* GViewController.m in Sources */,
-				E68571D819CDB91A0025DD18 /* A.pb.m in Sources */,
 				E683BA3A19B6EB6B00BADEAD /* GHTMLTable.m in Sources */,
 				E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */,
 				E683BA3C19B6EB6B00BADEAD /* GHTMLTableData.m in Sources */,

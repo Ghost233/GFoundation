@@ -38,6 +38,6 @@
 
 #define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
 
-#define GWinSize [[UIScreen mainScreen] bounds]
+#define WeakSelf(ws)  __weak __typeof(&*self)ws = self;
 
 #endif

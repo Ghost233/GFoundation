@@ -10,6 +10,8 @@
 
 #import "GAFNetworkingHelper.h"
 
+#import "GFoundation.h"
+
 @interface GViewController ()
 {
 
@@ -28,6 +30,8 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+    
+//    NSLog(@"%f %f", WinSize.height, WinSize.width);
     // Dispose of any resources that can be recreated.
 }
 

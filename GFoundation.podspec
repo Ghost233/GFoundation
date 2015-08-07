@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GFoundation'
-  s.version      = '0.0.17'
+  s.version      = '0.0.18'
   s.summary      = 'A short description of GFoundation.'
   s.description  = <<-DESC
                    Private Foundation to help coding.
@@ -25,6 +25,5 @@ Pod::Spec.new do |s|
   s.dependency 'EGOTableViewPullRefreshAndLoadMore'
   s.dependency 'crackify'
   s.dependency 'OpenUDID'
-
-
+  s.dependency 'UITableView+FDTemplateLayoutCell'
 end

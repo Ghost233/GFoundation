@@ -1,4 +1,4 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 
 inhibit_all_warnings!
 
@@ -16,3 +16,23 @@ pod 'EGOTableViewPullRefreshAndLoadMore'
 pod 'crackify'
 pod 'OpenUDID'
 pod 'UITableView+FDTemplateLayoutCell'
+pod 'PDTSimpleCalendar'
+pod 'DZNEmptyDataSet'
+pod 'ChameleonFramework'
+
+use_frameworks!
+pod "TextFieldEffects"
+
+use_frameworks!
+pod 'PermissionScope'
+
+pod 'SVProgressHUD'
+
+use_frameworks!
+pod 'Concorde'
+
+use_frameworks!
+pod 'Charts'
+
+pod 'ReactiveCocoa'
+pod 'iRate'

@@ -19,11 +19,7 @@ pod 'UITableView+FDTemplateLayoutCell'
 pod 'PDTSimpleCalendar'
 pod 'DZNEmptyDataSet'
 pod 'ChameleonFramework'
-
-use_frameworks!
-pod "TextFieldEffects"
-
 pod 'SVProgressHUD'
-
 pod 'ReactiveCocoa'
 pod 'iRate'
+pod 'MSDynamicsDrawerViewController'

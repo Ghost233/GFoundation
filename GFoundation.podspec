@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GFoundation'
-  s.version      = '0.0.19'
+  s.version      = '0.0.20'
   s.summary      = 'A short description of GFoundation.'
   s.description  = <<-DESC
                    Private Foundation to help coding.
@@ -26,4 +26,11 @@ Pod::Spec.new do |s|
   s.dependency 'crackify'
   s.dependency 'OpenUDID'
   s.dependency 'UITableView+FDTemplateLayoutCell'
+  s.dependency 'PDTSimpleCalendar'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'ChameleonFramework'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'ReactiveCocoa'
+  s.dependency 'iRate'
+  s.dependency 'MSDynamicsDrawerViewController'
 end

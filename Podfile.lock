@@ -48,6 +48,7 @@ PODS:
   - Mantle/extobjc (2.0.4)
   - Masonry (0.6.2)
   - MBProgressHUD (0.9.1)
+  - MSDynamicsDrawerViewController (1.5.1)
   - OpenUDID (1.0.0)
   - Overline-BlocksKit (0.4.0)
   - PDTSimpleCalendar (0.9.0)
@@ -62,7 +63,6 @@ PODS:
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
   - SVProgressHUD (1.1.3)
-  - TextFieldEffects (0.3.4)
   - Toast (2.4)
   - UIColor-Utilities (1.0.1)
   - UITableView+FDTemplateLayoutCell (1.3)
@@ -79,13 +79,13 @@ DEPENDENCIES:
   - Mantle
   - Masonry
   - MBProgressHUD
+  - MSDynamicsDrawerViewController
   - OpenUDID
   - Overline-BlocksKit
   - PDTSimpleCalendar
   - ReactiveCocoa
   - SDWebImage
   - SVProgressHUD
-  - TextFieldEffects
   - Toast
   - UIColor-Utilities
   - UITableView+FDTemplateLayoutCell
@@ -102,13 +102,13 @@ SPEC CHECKSUMS:
   Mantle: 6bee68168423948be0c0c5924832bf3af188e099
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MSDynamicsDrawerViewController: 2874df90f5e9453dc7d4e32f8038b50615d4baa7
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   Overline-BlocksKit: 8bda4f80ee14793ad78cd4d53a80351c345ee337
   PDTSimpleCalendar: 77c1dd0c2154c48bc92bcb158c01261f3d36c63f
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
-  TextFieldEffects: cdc19250e233414c4392c5831ef5496a1d899d1c
   Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
   UIColor-Utilities: 6746a54dcdb3bc012dd7aeaeea5588ae2100beb2
   UITableView+FDTemplateLayoutCell: d5be6056b5060313f5955a2590ecd33142ad713d

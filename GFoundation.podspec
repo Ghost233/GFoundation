@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GFoundation'
-  s.version      = '0.0.20'
+  s.version      = '0.0.21'
   s.summary      = 'A short description of GFoundation.'
   s.description  = <<-DESC
                    Private Foundation to help coding.
@@ -33,4 +33,5 @@ Pod::Spec.new do |s|
   s.dependency 'ReactiveCocoa'
   s.dependency 'iRate'
   s.dependency 'MSDynamicsDrawerViewController'
+  s.dependency 'AKPickerView'
 end

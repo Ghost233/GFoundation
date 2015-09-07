@@ -24,3 +24,4 @@ pod 'ReactiveCocoa'
 pod 'iRate'
 pod 'MSDynamicsDrawerViewController'
 pod 'AKPickerView'
+pod "pop"

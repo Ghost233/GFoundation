@@ -36,24 +36,25 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - ChameleonFramework (1.2.1):
-    - ChameleonFramework/Default (= 1.2.1)
-  - ChameleonFramework/Default (1.2.1)
+  - ChameleonFramework (2.0.4):
+    - ChameleonFramework/Default (= 2.0.4)
+  - ChameleonFramework/Default (2.0.4)
   - crackify (0.0.2)
-  - DZNEmptyDataSet (1.7.1)
+  - DZNEmptyDataSet (1.7.2)
   - EGOTableViewPullRefreshAndLoadMore (1.0.4)
   - iRate (1.11.4)
   - JSONKit-NoWarning (1.2)
-  - Mantle (2.0.4):
-    - Mantle/extobjc (= 2.0.4)
-  - Mantle/extobjc (2.0.4)
-  - Masonry (0.6.2)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - Masonry (0.6.3)
   - MBProgressHUD (0.9.1)
   - MSDynamicsDrawerViewController (1.5.1)
   - OpenUDID (1.0.0)
   - Overline-BlocksKit (0.4.0)
   - PDTSimpleCalendar (0.9.1)
-  - pop (1.0.7)
+  - PKYStepper (0.0.1)
+  - pop (1.0.8)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -86,6 +87,7 @@ DEPENDENCIES:
   - OpenUDID
   - Overline-BlocksKit
   - PDTSimpleCalendar
+  - PKYStepper (= 0.0.1)
   - pop
   - ReactiveCocoa
   - SDWebImage
@@ -98,20 +100,21 @@ SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
   AKPickerView: e31dcb9572c04d8439512315798862d9eb84b18f
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  ChameleonFramework: 3476f813ac1615aef0a9a958f05520dfca47e09d
+  ChameleonFramework: 5abe69b1f2a6cc79c3c435fcd9d3d855748225ee
   crackify: bd7b65c5cddcb7c91d596d33d356e93d52cde423
-  DZNEmptyDataSet: 2a398066c2bf5848f7f693fb50954b5064debd12
+  DZNEmptyDataSet: 0ec00bfc230d7450997b60c127afdd0b9f24f3b6
   EGOTableViewPullRefreshAndLoadMore: 118a0824590db042d42e08fcc442b93cebf15e73
   iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
   JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
-  Mantle: 6bee68168423948be0c0c5924832bf3af188e099
-  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MSDynamicsDrawerViewController: 2874df90f5e9453dc7d4e32f8038b50615d4baa7
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   Overline-BlocksKit: 8bda4f80ee14793ad78cd4d53a80351c345ee337
   PDTSimpleCalendar: d1c03387678422715dc021aa1a85d70f4d1014f2
-  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  PKYStepper: 8dacefbddf9fa2b6aaec2ef828b46a78daa2db7d
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1

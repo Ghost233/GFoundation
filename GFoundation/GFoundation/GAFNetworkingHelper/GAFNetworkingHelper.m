@@ -8,7 +8,7 @@
 
 #import "GAFNetworkingHelper.h"
 
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 @implementation GAFNetworkingHelper
 

@@ -8,6 +8,8 @@
 
 #import "GAppDelegate.h"
 
+#import "GFoundation/GFoundation.h"
+
 @implementation GAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

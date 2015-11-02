@@ -18,7 +18,7 @@
 {
     if (self = [super initWithFrame:frame])
     {
-        self.trackColor = [UIColor colorWithRGBHex:0xFCC560];
+        self.trackColor = [UIColor cyanColor];
         self.progressColor = [UIColor whiteColor];
         self.progress = 0.8;
         self.progressWidth = 10;

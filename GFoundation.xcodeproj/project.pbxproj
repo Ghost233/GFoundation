@@ -9,16 +9,14 @@
 /* Begin PBXBuildFile section */
 		A8FBE2B8C804A748B75FB7F5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D80DF724EB16C63D49388FE /* libPods.a */; };
 		E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B5BF719D14B6200AC623A /* NSString+DES.m */; };
-		E60B5BFB19D14B6200AC623A /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B5BF919D14B6200AC623A /* NSTimer+Addition.m */; };
+		E61C6C9C1BE744380004F90E /* GRoundBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61C6C9B1BE744380004F90E /* GRoundBoxView.m */; };
+		E638CBDD1BE749E90082308F /* GRoundBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E638CBDC1BE749E90082308F /* GRoundBoxView.xib */; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
 		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
 		E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
 		E683B9DE19B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9DC19B6E9EE00BADEAD /* InfoPlist.strings */; };
 		E683B9E019B6E9EE00BADEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9DF19B6E9EE00BADEAD /* main.m */; };
 		E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */; };
-		E683B9E719B6E9EE00BADEAD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */; };
-		E683B9EA19B6E9EE00BADEAD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */; };
-		E683B9ED19B6E9EE00BADEAD /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9EC19B6E9EE00BADEAD /* GViewController.m */; };
 		E683B9EF19B6E9EE00BADEAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E683B9EE19B6E9EE00BADEAD /* Images.xcassets */; };
 		E683B9F619B6E9EE00BADEAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9F519B6E9EE00BADEAD /* XCTest.framework */; };
 		E683B9F719B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
@@ -31,16 +29,18 @@
 		E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */; };
 		E683BA3419B6EB6B00BADEAD /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */; };
 		E683BA3519B6EB6B00BADEAD /* UIView+CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */; };
-		E683BA3619B6EB6B00BADEAD /* GBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1B19B6EB6B00BADEAD /* GBaseCollectionViewCell.m */; };
-		E683BA3719B6EB6B00BADEAD /* GBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1D19B6EB6B00BADEAD /* GBaseTableViewCell.m */; };
-		E683BA3819B6EB6B00BADEAD /* GTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1F19B6EB6B00BADEAD /* GTableViewDelegate.m */; };
 		E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2219B6EB6B00BADEAD /* GTMBase64.m */; };
-		E683BA3A19B6EB6B00BADEAD /* GHTMLTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2619B6EB6B00BADEAD /* GHTMLTable.m */; };
-		E683BA3B19B6EB6B00BADEAD /* GHTMLTableContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2819B6EB6B00BADEAD /* GHTMLTableContext.m */; };
-		E683BA3C19B6EB6B00BADEAD /* GHTMLTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2A19B6EB6B00BADEAD /* GHTMLTableData.m */; };
-		E683BA3D19B6EB6B00BADEAD /* GHTMLTableHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */; };
-		E683BA3E19B6EB6B00BADEAD /* GHTMLTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */; };
-		E68571D219CD94A30025DD18 /* GAFNetworkingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */; };
+		E68631191BE7189B00B05DFA /* GRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E68631181BE7189B00B05DFA /* GRoundView.m */; };
+		E686311B1BE718A100B05DFA /* GRoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E686311A1BE718A100B05DFA /* GRoundView.xib */; };
+		E68631201BE7243400B05DFA /* GRoundRectangleBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E686311D1BE7243400B05DFA /* GRoundRectangleBoxView.m */; };
+		E68631211BE7243400B05DFA /* GRoundRectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E686311F1BE7243400B05DFA /* GRoundRectangleView.m */; };
+		E68631231BE7243B00B05DFA /* GRoundRectangleBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68631221BE7243B00B05DFA /* GRoundRectangleBoxView.xib */; };
+		E68631251BE7245000B05DFA /* GRoundRectangleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68631241BE7245000B05DFA /* GRoundRectangleView.xib */; };
+		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
+		E6C5CDA21BE33C1A001F67FA /* GRoundProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA11BE33C1A001F67FA /* GRoundProgressBar.xib */; };
+		E6C5CDA51BE33C2E001F67FA /* GRoundProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDA41BE33C2E001F67FA /* GRoundProgressBar.m */; };
+		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
+		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,9 @@
 		92F3CE8F6C3D2703BB800758 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E60B5BF619D14B6200AC623A /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
 		E60B5BF719D14B6200AC623A /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
-		E60B5BF819D14B6200AC623A /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
-		E60B5BF919D14B6200AC623A /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		E61C6C9A1BE744380004F90E /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
+		E61C6C9B1BE744380004F90E /* GRoundBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundBoxView.m; sourceTree = "<group>"; };
+		E638CBDC1BE749E90082308F /* GRoundBoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRoundBoxView.xib; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,10 +72,6 @@
 		E683B9E119B6E9EE00BADEAD /* GFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAppDelegate.h; sourceTree = "<group>"; };
 		E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
-		E683B9E619B6E9EE00BADEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		E683B9E919B6E9EE00BADEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E683B9EB19B6E9EE00BADEAD /* GViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
-		E683B9EC19B6E9EE00BADEAD /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
 		E683B9EE19B6E9EE00BADEAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9F519B6E9EE00BADEAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -93,29 +90,26 @@
 		E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensions.m; sourceTree = "<group>"; };
 		E683BA1719B6EB6B00BADEAD /* UIView+CGRectExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRectExtension.h"; sourceTree = "<group>"; };
 		E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRectExtension.m"; sourceTree = "<group>"; };
-		E683BA1A19B6EB6B00BADEAD /* GBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBaseCollectionViewCell.h; sourceTree = "<group>"; };
-		E683BA1B19B6EB6B00BADEAD /* GBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		E683BA1C19B6EB6B00BADEAD /* GBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBaseTableViewCell.h; sourceTree = "<group>"; };
-		E683BA1D19B6EB6B00BADEAD /* GBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBaseTableViewCell.m; sourceTree = "<group>"; };
-		E683BA1E19B6EB6B00BADEAD /* GTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTableViewDelegate.h; sourceTree = "<group>"; };
-		E683BA1F19B6EB6B00BADEAD /* GTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTableViewDelegate.m; sourceTree = "<group>"; };
 		E683BA2119B6EB6B00BADEAD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		E683BA2219B6EB6B00BADEAD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		E683BA2319B6EB6B00BADEAD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		E683BA2519B6EB6B00BADEAD /* GHTMLTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTable.h; sourceTree = "<group>"; };
-		E683BA2619B6EB6B00BADEAD /* GHTMLTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTable.m; sourceTree = "<group>"; };
-		E683BA2719B6EB6B00BADEAD /* GHTMLTableContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableContext.h; sourceTree = "<group>"; };
-		E683BA2819B6EB6B00BADEAD /* GHTMLTableContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableContext.m; sourceTree = "<group>"; };
-		E683BA2919B6EB6B00BADEAD /* GHTMLTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableData.h; sourceTree = "<group>"; };
-		E683BA2A19B6EB6B00BADEAD /* GHTMLTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableData.m; sourceTree = "<group>"; };
-		E683BA2B19B6EB6B00BADEAD /* GHTMLTableHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableHelper.h; sourceTree = "<group>"; };
-		E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableHelper.m; sourceTree = "<group>"; };
-		E683BA2D19B6EB6B00BADEAD /* GHTMLTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTableRow.h; sourceTree = "<group>"; };
-		E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTMLTableRow.m; sourceTree = "<group>"; };
-		E683BA2F19B6EB6B00BADEAD /* GHTMLTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTMLTypedef.h; sourceTree = "<group>"; };
-		E68571D019CD94A30025DD18 /* GAFNetworkingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAFNetworkingHelper.h; path = GFoundation/GFoundation/GAFNetworkingHelper/GAFNetworkingHelper.h; sourceTree = SOURCE_ROOT; };
-		E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GAFNetworkingHelper.m; path = GFoundation/GFoundation/GAFNetworkingHelper/GAFNetworkingHelper.m; sourceTree = SOURCE_ROOT; };
 		E68571D319CDA08C0025DD18 /* GFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFoundation.h; sourceTree = "<group>"; };
+		E68631171BE7189B00B05DFA /* GRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundView.h; sourceTree = "<group>"; };
+		E68631181BE7189B00B05DFA /* GRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundView.m; sourceTree = "<group>"; };
+		E686311A1BE718A100B05DFA /* GRoundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRoundView.xib; sourceTree = "<group>"; };
+		E686311C1BE7243400B05DFA /* GRoundRectangleBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView.h; sourceTree = "<group>"; };
+		E686311D1BE7243400B05DFA /* GRoundRectangleBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundRectangleBoxView.m; sourceTree = "<group>"; };
+		E686311E1BE7243400B05DFA /* GRoundRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleView.h; sourceTree = "<group>"; };
+		E686311F1BE7243400B05DFA /* GRoundRectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundRectangleView.m; sourceTree = "<group>"; };
+		E68631221BE7243B00B05DFA /* GRoundRectangleBoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRoundRectangleBoxView.xib; sourceTree = "<group>"; };
+		E68631241BE7245000B05DFA /* GRoundRectangleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRoundRectangleView.xib; sourceTree = "<group>"; };
+		E6C5CD9D1BE33AA9001F67FA /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		E6C5CDA11BE33C1A001F67FA /* GRoundProgressBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRoundProgressBar.xib; sourceTree = "<group>"; };
+		E6C5CDA31BE33C2E001F67FA /* GRoundProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBar.h; sourceTree = "<group>"; };
+		E6C5CDA41BE33C2E001F67FA /* GRoundProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundProgressBar.m; sourceTree = "<group>"; };
+		E6C5CDA81BE33D3D001F67FA /* Launcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launcher.xib; sourceTree = "<group>"; };
+		E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainTableViewController.h; sourceTree = "<group>"; };
+		E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,12 +184,12 @@
 				E683BA0B19B6EB5D00BADEAD /* GFoundation */,
 				E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */,
 				E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */,
-				E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */,
-				E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */,
-				E683B9EB19B6E9EE00BADEAD /* GViewController.h */,
-				E683B9EC19B6E9EE00BADEAD /* GViewController.m */,
+				E6C5CD9D1BE33AA9001F67FA /* main.storyboard */,
+				E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */,
+				E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */,
 				E683B9EE19B6E9EE00BADEAD /* Images.xcassets */,
 				E683B9DA19B6E9EE00BADEAD /* Supporting Files */,
+				E6C5CDA81BE33D3D001F67FA /* Launcher.xib */,
 			);
 			path = GFoundation;
 			sourceTree = "<group>";
@@ -232,11 +226,9 @@
 		E683BA0B19B6EB5D00BADEAD /* GFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				E6C5CDA01BE33B44001F67FA /* GView */,
 				E683BA0C19B6EB6B00BADEAD /* Extensions */,
-				E683BA1919B6EB6B00BADEAD /* GBaseView */,
 				E683BA2019B6EB6B00BADEAD /* GTMBase64 */,
-				E683BA2419B6EB6B00BADEAD /* HTMLTableHelper */,
-				E68571CD19CD94250025DD18 /* AFNetworkingHelper */,
 				E68571D319CDA08C0025DD18 /* GFoundation.h */,
 			);
 			path = GFoundation;
@@ -247,8 +239,6 @@
 			children = (
 				E60B5BF619D14B6200AC623A /* NSString+DES.h */,
 				E60B5BF719D14B6200AC623A /* NSString+DES.m */,
-				E60B5BF819D14B6200AC623A /* NSTimer+Addition.h */,
-				E60B5BF919D14B6200AC623A /* NSTimer+Addition.m */,
 				E683BA0D19B6EB6B00BADEAD /* NSArrayExtensions.h */,
 				E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */,
 				E683BA0F19B6EB6B00BADEAD /* NSDataExtensions.h */,
@@ -265,19 +255,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E683BA1919B6EB6B00BADEAD /* GBaseView */ = {
-			isa = PBXGroup;
-			children = (
-				E683BA1A19B6EB6B00BADEAD /* GBaseCollectionViewCell.h */,
-				E683BA1B19B6EB6B00BADEAD /* GBaseCollectionViewCell.m */,
-				E683BA1C19B6EB6B00BADEAD /* GBaseTableViewCell.h */,
-				E683BA1D19B6EB6B00BADEAD /* GBaseTableViewCell.m */,
-				E683BA1E19B6EB6B00BADEAD /* GTableViewDelegate.h */,
-				E683BA1F19B6EB6B00BADEAD /* GTableViewDelegate.m */,
-			);
-			path = GBaseView;
-			sourceTree = "<group>";
-		};
 		E683BA2019B6EB6B00BADEAD /* GTMBase64 */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,31 +265,26 @@
 			path = GTMBase64;
 			sourceTree = "<group>";
 		};
-		E683BA2419B6EB6B00BADEAD /* HTMLTableHelper */ = {
+		E6C5CDA01BE33B44001F67FA /* GView */ = {
 			isa = PBXGroup;
 			children = (
-				E683BA2519B6EB6B00BADEAD /* GHTMLTable.h */,
-				E683BA2619B6EB6B00BADEAD /* GHTMLTable.m */,
-				E683BA2719B6EB6B00BADEAD /* GHTMLTableContext.h */,
-				E683BA2819B6EB6B00BADEAD /* GHTMLTableContext.m */,
-				E683BA2919B6EB6B00BADEAD /* GHTMLTableData.h */,
-				E683BA2A19B6EB6B00BADEAD /* GHTMLTableData.m */,
-				E683BA2B19B6EB6B00BADEAD /* GHTMLTableHelper.h */,
-				E683BA2C19B6EB6B00BADEAD /* GHTMLTableHelper.m */,
-				E683BA2D19B6EB6B00BADEAD /* GHTMLTableRow.h */,
-				E683BA2E19B6EB6B00BADEAD /* GHTMLTableRow.m */,
-				E683BA2F19B6EB6B00BADEAD /* GHTMLTypedef.h */,
+				E68631221BE7243B00B05DFA /* GRoundRectangleBoxView.xib */,
+				E686311C1BE7243400B05DFA /* GRoundRectangleBoxView.h */,
+				E686311D1BE7243400B05DFA /* GRoundRectangleBoxView.m */,
+				E68631241BE7245000B05DFA /* GRoundRectangleView.xib */,
+				E686311E1BE7243400B05DFA /* GRoundRectangleView.h */,
+				E686311F1BE7243400B05DFA /* GRoundRectangleView.m */,
+				E6C5CDA11BE33C1A001F67FA /* GRoundProgressBar.xib */,
+				E6C5CDA31BE33C2E001F67FA /* GRoundProgressBar.h */,
+				E6C5CDA41BE33C2E001F67FA /* GRoundProgressBar.m */,
+				E686311A1BE718A100B05DFA /* GRoundView.xib */,
+				E68631171BE7189B00B05DFA /* GRoundView.h */,
+				E68631181BE7189B00B05DFA /* GRoundView.m */,
+				E638CBDC1BE749E90082308F /* GRoundBoxView.xib */,
+				E61C6C9A1BE744380004F90E /* GRoundBoxView.h */,
+				E61C6C9B1BE744380004F90E /* GRoundBoxView.m */,
 			);
-			path = HTMLTableHelper;
-			sourceTree = "<group>";
-		};
-		E68571CD19CD94250025DD18 /* AFNetworkingHelper */ = {
-			isa = PBXGroup;
-			children = (
-				E68571D019CD94A30025DD18 /* GAFNetworkingHelper.h */,
-				E68571D119CD94A30025DD18 /* GAFNetworkingHelper.m */,
-			);
-			path = AFNetworkingHelper;
+			path = GView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,10 +367,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E683B9EA19B6E9EE00BADEAD /* Main_iPad.storyboard in Resources */,
+				E638CBDD1BE749E90082308F /* GRoundBoxView.xib in Resources */,
 				E683B9EF19B6E9EE00BADEAD /* Images.xcassets in Resources */,
-				E683B9E719B6E9EE00BADEAD /* Main_iPhone.storyboard in Resources */,
+				E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */,
+				E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */,
 				E683B9DE19B6E9EE00BADEAD /* InfoPlist.strings in Resources */,
+				E68631231BE7243B00B05DFA /* GRoundRectangleBoxView.xib in Resources */,
+				E6C5CDA21BE33C1A001F67FA /* GRoundProgressBar.xib in Resources */,
+				E686311B1BE718A100B05DFA /* GRoundView.xib in Resources */,
+				E68631251BE7245000B05DFA /* GRoundRectangleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,27 +442,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68571D219CD94A30025DD18 /* GAFNetworkingHelper.m in Sources */,
-				E683BA3D19B6EB6B00BADEAD /* GHTMLTableHelper.m in Sources */,
+				E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */,
 				E683BA3119B6EB6B00BADEAD /* NSDataExtensions.m in Sources */,
-				E683BA3E19B6EB6B00BADEAD /* GHTMLTableRow.m in Sources */,
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
-				E683BA3619B6EB6B00BADEAD /* GBaseCollectionViewCell.m in Sources */,
 				E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */,
 				E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */,
 				E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */,
-				E683B9ED19B6E9EE00BADEAD /* GViewController.m in Sources */,
-				E683BA3A19B6EB6B00BADEAD /* GHTMLTable.m in Sources */,
 				E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */,
-				E683BA3C19B6EB6B00BADEAD /* GHTMLTableData.m in Sources */,
-				E683BA3B19B6EB6B00BADEAD /* GHTMLTableContext.m in Sources */,
-				E60B5BFB19D14B6200AC623A /* NSTimer+Addition.m in Sources */,
-				E683BA3819B6EB6B00BADEAD /* GTableViewDelegate.m in Sources */,
-				E683BA3719B6EB6B00BADEAD /* GBaseTableViewCell.m in Sources */,
+				E68631211BE7243400B05DFA /* GRoundRectangleView.m in Sources */,
+				E68631191BE7189B00B05DFA /* GRoundView.m in Sources */,
 				E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */,
 				E683BA3419B6EB6B00BADEAD /* NSStringExtensions.m in Sources */,
+				E68631201BE7243400B05DFA /* GRoundRectangleBoxView.m in Sources */,
+				E61C6C9C1BE744380004F90E /* GRoundBoxView.m in Sources */,
 				E683BA3519B6EB6B00BADEAD /* UIView+CGRectExtension.m in Sources */,
+				E6C5CDA51BE33C2E001F67FA /* GRoundProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,22 +486,6 @@
 				E683B9DD19B6E9EE00BADEAD /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E683B9E519B6E9EE00BADEAD /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E683B9E619B6E9EE00BADEAD /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		E683B9E819B6E9EE00BADEAD /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E683B9E919B6E9EE00BADEAD /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */ = {

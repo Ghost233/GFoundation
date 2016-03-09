@@ -19,11 +19,12 @@ IB_DESIGNABLE
 
 @property (nonatomic, strong) IBInspectable UIColor* trackColor;
 @property (nonatomic, strong) IBInspectable UIColor* progressColor;
-@property (nonatomic) IBInspectable float progress;//0~1之间的数
-@property (nonatomic) IBInspectable float progressWidth;
-@property (nonatomic) IBInspectable float radius;
-
-//- (void)updateWithRadius:(float)radius WithProgressWidth:(CGFloat)width;
+@property (nonatomic, readwrite) IBInspectable float progressWidth;
+@property (nonatomic, readwrite) float radius;
+@property (nonatomic, readwrite) float progress;
+@property (nonatomic, readwrite) IBInspectable float speed;
+@property (nonatomic, readwrite) IBInspectable float strokeStart;
+@property (nonatomic, readwrite) IBInspectable float strokeEnd;
 
 - (void)setProgress:(float)progress WithAnimate:(BOOL)isAnimate;
 

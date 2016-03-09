@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		A8FBE2B8C804A748B75FB7F5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D80DF724EB16C63D49388FE /* libPods.a */; };
 		E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B5BF719D14B6200AC623A /* NSString+DES.m */; };
+		E617B6621BEB416900501A69 /* GRoundProgressBarTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */; };
 		E61C6C9C1BE744380004F90E /* GRoundBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61C6C9B1BE744380004F90E /* GRoundBoxView.m */; };
 		E638CBDD1BE749E90082308F /* GRoundBoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E638CBDC1BE749E90082308F /* GRoundBoxView.xib */; };
+		E64CCDD71C9006650092C699 /* GFoundationFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E64CCDD61C9006650092C699 /* GFoundationFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64CCDDB1C9006650092C699 /* GFoundationFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64CCDD41C9006650092C699 /* GFoundationFramework.framework */; };
+		E64CCDDC1C9006650092C699 /* GFoundationFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E64CCDD41C9006650092C699 /* GFoundationFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
 		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
 		E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
@@ -44,6 +48,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E64CCDD91C9006650092C699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E683B9C819B6E9EE00BADEAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64CCDD31C9006650092C699;
+			remoteInfo = GFoundationFramework;
+		};
 		E683B9F919B6E9EE00BADEAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E683B9C819B6E9EE00BADEAD /* Project object */;
@@ -53,15 +64,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E64CCDE01C9006650092C699 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E64CCDDC1C9006650092C699 /* GFoundationFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		20F6C604924FDEB8F18F0205 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7D80DF724EB16C63D49388FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F3CE8F6C3D2703BB800758 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E60B5BF619D14B6200AC623A /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
 		E60B5BF719D14B6200AC623A /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		E617B6601BEB416900501A69 /* GRoundProgressBarTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBarTestViewController.h; sourceTree = "<group>"; };
+		E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundProgressBarTestViewController.m; sourceTree = "<group>"; };
 		E61C6C9A1BE744380004F90E /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
 		E61C6C9B1BE744380004F90E /* GRoundBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundBoxView.m; sourceTree = "<group>"; };
 		E638CBDC1BE749E90082308F /* GRoundBoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRoundBoxView.xib; sourceTree = "<group>"; };
+		E64CCDD41C9006650092C699 /* GFoundationFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GFoundationFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64CCDD61C9006650092C699 /* GFoundationFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFoundationFramework.h; sourceTree = "<group>"; };
+		E64CCDD81C9006650092C699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,10 +143,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E64CCDD01C9006650092C699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E683B9CD19B6E9EE00BADEAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64CCDDB1C9006650092C699 /* GFoundationFramework.framework in Frameworks */,
 				E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */,
 				E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
 				E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */,
@@ -146,11 +184,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E64CCDD51C9006650092C699 /* GFoundationFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E64CCDD61C9006650092C699 /* GFoundationFramework.h */,
+				E64CCDD81C9006650092C699 /* Info.plist */,
+			);
+			path = GFoundationFramework;
+			sourceTree = "<group>";
+		};
 		E683B9C719B6E9EE00BADEAD = {
 			isa = PBXGroup;
 			children = (
 				E683B9D919B6E9EE00BADEAD /* GFoundation */,
 				E683B9FB19B6E9EE00BADEAD /* GFoundationTests */,
+				E64CCDD51C9006650092C699 /* GFoundationFramework */,
 				E683B9D219B6E9EE00BADEAD /* Frameworks */,
 				E683B9D119B6E9EE00BADEAD /* Products */,
 				BA39790E26FE87A12BD1E9E6 /* Pods */,
@@ -162,6 +210,7 @@
 			children = (
 				E683B9D019B6E9EE00BADEAD /* GFoundation.app */,
 				E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */,
+				E64CCDD41C9006650092C699 /* GFoundationFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +236,8 @@
 				E6C5CD9D1BE33AA9001F67FA /* main.storyboard */,
 				E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */,
 				E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */,
+				E617B6601BEB416900501A69 /* GRoundProgressBarTestViewController.h */,
+				E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */,
 				E683B9EE19B6E9EE00BADEAD /* Images.xcassets */,
 				E683B9DA19B6E9EE00BADEAD /* Supporting Files */,
 				E6C5CDA81BE33D3D001F67FA /* Launcher.xib */,
@@ -289,7 +340,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E64CCDD11C9006650092C699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64CCDD71C9006650092C699 /* GFoundationFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		E64CCDD31C9006650092C699 /* GFoundationFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64CCDDF1C9006650092C699 /* Build configuration list for PBXNativeTarget "GFoundationFramework" */;
+			buildPhases = (
+				E64CCDCF1C9006650092C699 /* Sources */,
+				E64CCDD01C9006650092C699 /* Frameworks */,
+				E64CCDD11C9006650092C699 /* Headers */,
+				E64CCDD21C9006650092C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFoundationFramework;
+			productName = GFoundationFramework;
+			productReference = E64CCDD41C9006650092C699 /* GFoundationFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E683B9CF19B6E9EE00BADEAD /* GFoundation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E683BA0519B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundation" */;
@@ -300,10 +380,12 @@
 				E683B9CE19B6E9EE00BADEAD /* Resources */,
 				3CD55FD1406A473B8AD051BF /* Copy Pods Resources */,
 				7E07ABCB0C7B7339F734E4F8 /* Embed Pods Frameworks */,
+				E64CCDE01C9006650092C699 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E64CCDDA1C9006650092C699 /* PBXTargetDependency */,
 			);
 			name = GFoundation;
 			productName = GFoundation;
@@ -338,6 +420,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Ghost;
 				TargetAttributes = {
+					E64CCDD31C9006650092C699 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					E683B9F319B6E9EE00BADEAD = {
 						TestTargetID = E683B9CF19B6E9EE00BADEAD;
 					};
@@ -358,11 +443,19 @@
 			targets = (
 				E683B9CF19B6E9EE00BADEAD /* GFoundation */,
 				E683B9F319B6E9EE00BADEAD /* GFoundationTests */,
+				E64CCDD31C9006650092C699 /* GFoundationFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E64CCDD21C9006650092C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E683B9CE19B6E9EE00BADEAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,10 +531,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E64CCDCF1C9006650092C699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E683B9CC19B6E9EE00BADEAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E617B6621BEB416900501A69 /* GRoundProgressBarTestViewController.m in Sources */,
 				E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */,
 				E683BA3119B6EB6B00BADEAD /* NSDataExtensions.m in Sources */,
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
@@ -472,6 +573,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E64CCDDA1C9006650092C699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64CCDD31C9006650092C699 /* GFoundationFramework */;
+			targetProxy = E64CCDD91C9006650092C699 /* PBXContainerItemProxy */;
+		};
 		E683B9FA19B6E9EE00BADEAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E683B9CF19B6E9EE00BADEAD /* GFoundation */;
@@ -499,6 +605,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E64CCDDD1C9006650092C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GFoundationFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ghost233.GFoundationFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E64CCDDE1C9006650092C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = GFoundationFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ghost233.GFoundationFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E683BA0319B6E9EE00BADEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -582,6 +739,7 @@
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -598,6 +756,7 @@
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -649,6 +808,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E64CCDDF1C9006650092C699 /* Build configuration list for PBXNativeTarget "GFoundationFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64CCDDD1C9006650092C699 /* Debug */,
+				E64CCDDE1C9006650092C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E683B9CB19B6E9EE00BADEAD /* Build configuration list for PBXProject "GFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -131,7 +131,7 @@
         <!--GRoundProgressBar-->
         <scene sceneID="AzY-kM-1Jm">
             <objects>
-                <viewController title="GRoundProgressBar" id="c67-aJ-Bjm" sceneMemberID="viewController">
+                <viewController title="GRoundProgressBar" id="c67-aJ-Bjm" customClass="GRoundProgressBarTestViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FgU-lF-uuP"/>
                         <viewControllerLayoutGuide type="bottom" id="0Jm-jA-l7c"/>
@@ -141,30 +141,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJr-YN-cGo">
-                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <rect key="frame" x="0.0" y="554" width="600" height="46"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seU-RL-C2S">
+                                        <rect key="frame" x="8" y="8" width="89" height="30"/>
+                                        <state key="normal" title="Play Animate"/>
+                                        <connections>
+                                            <action selector="play:" destination="c67-aJ-Bjm" eventType="touchUpInside" id="VOT-Kd-CoJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-MB-YEo">
+                                        <rect key="frame" x="105" y="8" width="132" height="30"/>
+                                        <state key="normal" title="Play Reset Animate"/>
+                                        <connections>
+                                            <action selector="play:" destination="c67-aJ-Bjm" eventType="touchUpInside" id="NGx-fI-yrU"/>
+                                            <action selector="reset:" destination="c67-aJ-Bjm" eventType="touchUpInside" id="rIB-t6-Kae"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="AP8-al-Snc"/>
+                                    <constraint firstItem="seU-RL-C2S" firstAttribute="leading" secondItem="OJr-YN-cGo" secondAttribute="leading" constant="8" id="3cO-82-aeA"/>
+                                    <constraint firstAttribute="bottom" secondItem="seU-RL-C2S" secondAttribute="bottom" constant="8" id="4aT-hg-5ar"/>
+                                    <constraint firstItem="7VS-MB-YEo" firstAttribute="leading" secondItem="seU-RL-C2S" secondAttribute="trailing" constant="8" id="SYl-fo-v9O"/>
+                                    <constraint firstItem="seU-RL-C2S" firstAttribute="top" secondItem="OJr-YN-cGo" secondAttribute="top" constant="8" id="m43-VG-hMF"/>
+                                    <constraint firstItem="7VS-MB-YEo" firstAttribute="centerY" secondItem="seU-RL-C2S" secondAttribute="centerY" id="w5f-OA-cmR"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gi4-tz-0T3" customClass="GRoundProgressBar">
-                                <rect key="frame" x="0.0" y="64" width="600" height="436"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="490"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
-                                        <color key="value" red="0.98039215690000003" green="0.63529411759999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
-                                        <real key="value" value="0.80000000000000004"/>
+                                        <color key="value" red="0.98039215690000003" green="0.63529411759999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progressWidth">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="radius">
-                                        <real key="value" value="100"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="speed">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeStart">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeEnd">
+                                        <integer key="value" value="0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -180,6 +204,9 @@
                             <constraint firstItem="gi4-tz-0T3" firstAttribute="leading" secondItem="dB2-9g-HB1" secondAttribute="leadingMargin" constant="-20" id="tjh-bt-xiV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="roundProgressBar" destination="gi4-tz-0T3" id="E14-Kx-uLG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDu-cT-Ty0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -268,11 +295,8 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G3B-zd-c1e" customClass="GRoundRectangleBoxView">
-                                <rect key="frame" x="82" y="64" width="436" height="436"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="436"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="G3B-zd-c1e" secondAttribute="height" id="JUY-GH-SY6"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="radius">
                                         <real key="value" value="20"/>
@@ -288,12 +312,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="t5z-yv-2GI" firstAttribute="top" secondItem="G3B-zd-c1e" secondAttribute="bottom" id="GfN-P2-NhE"/>
-                            <constraint firstItem="rFr-oT-R46" firstAttribute="top" secondItem="t5z-yv-2GI" secondAttribute="bottom" id="cbX-lQ-Hlt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="t5z-yv-2GI" secondAttribute="trailing" constant="-20" id="fOV-Bl-hEd"/>
-                            <constraint firstItem="t5z-yv-2GI" firstAttribute="leading" secondItem="nLr-yv-Zlp" secondAttribute="leadingMargin" constant="-20" id="ftt-S0-hBf"/>
-                            <constraint firstItem="G3B-zd-c1e" firstAttribute="top" secondItem="Gym-gQ-iD4" secondAttribute="bottom" id="tNT-PY-I3Y"/>
-                            <constraint firstItem="G3B-zd-c1e" firstAttribute="centerX" secondItem="nLr-yv-Zlp" secondAttribute="centerX" id="ypm-21-2nc"/>
+                            <constraint firstItem="G3B-zd-c1e" firstAttribute="top" secondItem="Gym-gQ-iD4" secondAttribute="bottom" id="UPQ-He-gay"/>
+                            <constraint firstItem="t5z-yv-2GI" firstAttribute="leading" secondItem="nLr-yv-Zlp" secondAttribute="leadingMargin" constant="-20" id="XT6-iT-qh7"/>
+                            <constraint firstItem="G3B-zd-c1e" firstAttribute="leading" secondItem="nLr-yv-Zlp" secondAttribute="leadingMargin" constant="-20" id="asM-B7-WGm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G3B-zd-c1e" secondAttribute="trailing" constant="-20" id="cb5-9H-riE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t5z-yv-2GI" secondAttribute="trailing" constant="-20" id="dpC-FV-Nod"/>
+                            <constraint firstItem="t5z-yv-2GI" firstAttribute="top" secondItem="G3B-zd-c1e" secondAttribute="bottom" id="nPS-x9-Xyb"/>
+                            <constraint firstItem="rFr-oT-R46" firstAttribute="top" secondItem="t5z-yv-2GI" secondAttribute="bottom" id="qiX-Op-6cQ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -313,19 +338,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1uB-Zy-A8j">
-                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="v8a-If-dOm"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wla-01-PTd" customClass="GRoundRectangleView">
-                                <rect key="frame" x="82" y="64" width="436" height="436"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="436"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="wla-01-PTd" secondAttribute="height" id="cdF-NU-x88"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -335,15 +350,23 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1uB-Zy-A8j">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="v8a-If-dOm"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wla-01-PTd" firstAttribute="centerX" secondItem="riO-xf-0Rh" secondAttribute="centerX" id="5Nl-uU-beS"/>
-                            <constraint firstItem="1uB-Zy-A8j" firstAttribute="top" secondItem="wla-01-PTd" secondAttribute="bottom" id="OId-LP-mh0"/>
-                            <constraint firstItem="wla-01-PTd" firstAttribute="top" secondItem="0L0-bk-Phq" secondAttribute="bottom" id="hWF-R5-zuV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1uB-Zy-A8j" secondAttribute="trailing" constant="-20" id="iXm-cZ-6JH"/>
-                            <constraint firstItem="J8U-oI-Tpe" firstAttribute="top" secondItem="1uB-Zy-A8j" secondAttribute="bottom" id="tlJ-BL-ymK"/>
-                            <constraint firstItem="1uB-Zy-A8j" firstAttribute="leading" secondItem="riO-xf-0Rh" secondAttribute="leadingMargin" constant="-20" id="zU4-at-14e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1uB-Zy-A8j" secondAttribute="trailing" constant="-20" id="CJ0-58-y1w"/>
+                            <constraint firstItem="1uB-Zy-A8j" firstAttribute="top" secondItem="wla-01-PTd" secondAttribute="bottom" id="MW1-Ie-dcJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wla-01-PTd" secondAttribute="trailing" constant="-20" id="Wk8-ve-dKn"/>
+                            <constraint firstItem="wla-01-PTd" firstAttribute="top" secondItem="0L0-bk-Phq" secondAttribute="bottom" id="auC-ad-dI4"/>
+                            <constraint firstItem="1uB-Zy-A8j" firstAttribute="leading" secondItem="riO-xf-0Rh" secondAttribute="leadingMargin" constant="-20" id="dOW-dB-g7V"/>
+                            <constraint firstItem="J8U-oI-Tpe" firstAttribute="top" secondItem="1uB-Zy-A8j" secondAttribute="bottom" id="jSH-un-2PH"/>
+                            <constraint firstItem="wla-01-PTd" firstAttribute="leading" secondItem="riO-xf-0Rh" secondAttribute="leadingMargin" constant="-20" id="uDe-1a-C0d"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
-
 @interface GRoundRectangleBoxView : UIView
 
-@property (nonatomic, readwrite) IBInspectable CGFloat radius;
-@property (nonatomic, readwrite) IBInspectable CGFloat strokeWidth;
-@property (nonatomic, strong) IBInspectable UIColor* color;
+@property (nonatomic, readwrite) CGFloat radius;
+@property (nonatomic, readwrite) CGFloat strokeWidth;
+@property (nonatomic, strong) UIColor* color;
 
 @end

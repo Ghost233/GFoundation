@@ -1,10 +1,80 @@
 PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - FDStackView (1.0)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
+  - Masonry (0.6.4)
+  - NSLogger (1.5.1):
+    - NSLogger/Standard (= 1.5.1)
+  - NSLogger/Standard (1.5.1)
   - pop (1.0.9)
+  - ReactiveCocoa (4.0.1):
+    - ReactiveCocoa/UI (= 4.0.1)
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/Core (4.0.1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/no-arc (4.0.1):
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/UI (4.0.1):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0.2)
+  - Result (1.0.2)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - UIView+FDCollapsibleConstraints (1.1)
+  - XXNibBridge (2.2.3)
+  - YYKit (1.0.2):
+    - YYKit/no-arc (= 1.0.2)
+  - YYKit/no-arc (1.0.2)
 
 DEPENDENCIES:
+  - AFNetworking
+  - FDFullscreenPopGesture
+  - FDStackView
+  - FMDB
+  - Mantle
+  - Masonry
+  - NSLogger
   - pop
+  - ReactiveCocoa
+  - UITableView+FDTemplateLayoutCell
+  - UIView+FDCollapsibleConstraints
+  - XXNibBridge
+  - YYKit
 
 SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  NSLogger: 5ed223a2436df96244e033be750656dacdeec034
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
+  XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
+  YYKit: 90574c513a0f618a0a6dbbedcda30fb4ad29fdb0
 
 COCOAPODS: 0.39.0

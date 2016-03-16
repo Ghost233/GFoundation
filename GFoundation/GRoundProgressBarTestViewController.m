@@ -9,7 +9,7 @@
 
 #import "GRoundProgressBarTestViewController.h"
 
-#import "GRoundProgressBar.h"
+#import <GUIFramework/GUIFramework.h>
 
 @interface GRoundProgressBarTestViewController ()
 

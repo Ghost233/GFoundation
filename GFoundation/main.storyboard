@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7FK-Oq-ahs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7FK-Oq-ahs">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -169,8 +169,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gi4-tz-0T3" customClass="GRoundProgressBar">
-                                <rect key="frame" x="0.0" y="64" width="600" height="490"/>
+                                <rect key="frame" x="55" y="64" width="490" height="490"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gi4-tz-0T3" secondAttribute="height" multiplier="1:1" id="MAj-Cw-FFv"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
                                         <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -195,6 +198,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="gi4-tz-0T3" firstAttribute="centerX" secondItem="dB2-9g-HB1" secondAttribute="centerX" id="2m0-Uf-GzB"/>
                             <constraint firstItem="OJr-YN-cGo" firstAttribute="leading" secondItem="dB2-9g-HB1" secondAttribute="leadingMargin" constant="-20" id="7ZC-97-dqT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gi4-tz-0T3" secondAttribute="trailing" constant="-20" id="AWg-te-exx"/>
                             <constraint firstItem="OJr-YN-cGo" firstAttribute="top" secondItem="gi4-tz-0T3" secondAttribute="bottom" id="JeL-zJ-QTb"/>
@@ -203,6 +207,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="OJr-YN-cGo" secondAttribute="trailing" constant="-20" id="mcn-Oi-hRd"/>
                             <constraint firstItem="gi4-tz-0T3" firstAttribute="leading" secondItem="dB2-9g-HB1" secondAttribute="leadingMargin" constant="-20" id="tjh-bt-xiV"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="AWg-te-exx"/>
+                                <exclude reference="tjh-bt-xiV"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="roundProgressBar" destination="gi4-tz-0T3" id="E14-Kx-uLG"/>
@@ -299,13 +309,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="radius">
-                                        <real key="value" value="20"/>
+                                        <real key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
-                                        <real key="value" value="5"/>
+                                        <real key="value" value="11"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.98039215690000003" green="0.63529411759999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>

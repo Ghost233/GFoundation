@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
   s.dependency 'XXNibBridge'
   s.dependency 'NSLogger'
   s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
-  s.frameworks = 'GUIFramework'
   s.preserve_paths = 'GFoundation/Library/*.framework'
 end

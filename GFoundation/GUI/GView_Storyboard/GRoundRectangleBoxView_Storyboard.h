@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <GUIFramework/GUIFramework.h>
+#import <GUIFramework/GUIFramework.h>
 
 IB_DESIGNABLE
 

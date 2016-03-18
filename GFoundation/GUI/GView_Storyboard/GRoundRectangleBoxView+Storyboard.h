@@ -1,16 +1,12 @@
 //
-//  GRoundRectangleBoxView_Storyboard.h
+//  GRoundRectangleBoxView+Storyboard.h
 //  GFoundation
 //
-//  Created by Ghost on 16/3/10.
+//  Created by Ghost on 16/3/18.
 //  Copyright © 2016年 Ghost. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-#import <GUIFramework/GUIFramework.h>
-
-IB_DESIGNABLE
+#import "GRoundRectangleBoxView.h"
 
 @interface GRoundRectangleBoxView (Storyboard)
 

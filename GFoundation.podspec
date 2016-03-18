@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'http://github.com/Ghost233/GFoundation.git'}
   s.source_files  = 'GFoundation/GFoundation/*.{h.m}', 'GFoundation/GFoundation/**/*.{h,m}'
+  s.public_header_files = "GFoundation/GFoundation/*.h", 'GFoundation/GFoundation/**/*.h', 'GFoundation/Library/GUIFramework.framework/Headers/*.h'
   s.requires_arc = true
   s.dependency 'pop'
   s.dependency 'FMDB'
@@ -27,8 +28,5 @@ Pod::Spec.new do |s|
   s.dependency 'NSLogger'
   s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
   s.frameworks = 'GUIFramework'
-  s.public_header_files = [
-    'GFoundation/Library/GUIFramework.framework/Headers/*.h'
-  ]
   s.preserve_paths = 'GFoundation/Library/*.framework'
 end

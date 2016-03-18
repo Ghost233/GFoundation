@@ -21,6 +21,7 @@
 		E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
 		E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */; };
 		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
+		E68474B41C9C06A400737C1B /* libGUIFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68474B31C9C06A400737C1B /* libGUIFramework.a */; };
 		E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */; };
 		E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */; };
 		E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB031C9BF3940051F422 /* NSDictionaryExtensions.m */; };
@@ -29,7 +30,6 @@
 		E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB091C9BF3940051F422 /* NSStringExtensions.m */; };
 		E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */; };
 		E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */; };
-		E6B307FE1C9BD01E008D2738 /* GUIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B307FD1C9BD01E008D2738 /* GUIFramework.framework */; };
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
@@ -80,6 +80,13 @@
 		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
+		E68474B31C9C06A400737C1B /* libGUIFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIFramework.a; path = GFoundation/GUI/libGUIFramework.a; sourceTree = "<group>"; };
+		E68475121C9C097900737C1B /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
+		E68475131C9C097900737C1B /* GRoundProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBar.h; sourceTree = "<group>"; };
+		E68475141C9C097900737C1B /* GRoundRectangleBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView.h; sourceTree = "<group>"; };
+		E68475151C9C097900737C1B /* GRoundRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleView.h; sourceTree = "<group>"; };
+		E68475161C9C097900737C1B /* GRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundView.h; sourceTree = "<group>"; };
+		E68475171C9C097900737C1B /* GUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFramework.h; sourceTree = "<group>"; };
 		E6A6CAFB1C9BF3940051F422 /* GRoundRectangleBoxView_Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView_Storyboard.h; sourceTree = "<group>"; };
 		E6A6CAFE1C9BF3940051F422 /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
 		E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
@@ -99,7 +106,6 @@
 		E6A6CB0E1C9BF3940051F422 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		E6A6CB101C9BF3940051F422 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		E6B307FD1C9BD01E008D2738 /* GUIFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GUIFramework.framework; path = GFoundation/Library/GUIFramework.framework; sourceTree = "<group>"; };
 		E6C5CD9D1BE33AA9001F67FA /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		E6C5CDA81BE33D3D001F67FA /* Launcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launcher.xib; sourceTree = "<group>"; };
 		E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainTableViewController.h; sourceTree = "<group>"; };
@@ -111,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B307FE1C9BD01E008D2738 /* GUIFramework.framework in Frameworks */,
+				E68474B41C9C06A400737C1B /* libGUIFramework.a in Frameworks */,
 				E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */,
 				E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
 				E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */,
@@ -164,7 +170,7 @@
 		E683B9D219B6E9EE00BADEAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6B307FD1C9BD01E008D2738 /* GUIFramework.framework */,
+				E68474B31C9C06A400737C1B /* libGUIFramework.a */,
 				E683B9D319B6E9EE00BADEAD /* Foundation.framework */,
 				E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */,
 				E683B9D719B6E9EE00BADEAD /* UIKit.framework */,
@@ -222,9 +228,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E68475101C9C097900737C1B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E68475111C9C097900737C1B /* GUIFramework */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E68475111C9C097900737C1B /* GUIFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E68475121C9C097900737C1B /* GRoundBoxView.h */,
+				E68475131C9C097900737C1B /* GRoundProgressBar.h */,
+				E68475141C9C097900737C1B /* GRoundRectangleBoxView.h */,
+				E68475151C9C097900737C1B /* GRoundRectangleView.h */,
+				E68475161C9C097900737C1B /* GRoundView.h */,
+				E68475171C9C097900737C1B /* GUIFramework.h */,
+			);
+			path = GUIFramework;
+			sourceTree = "<group>";
+		};
 		E6A6CAF81C9BF3940051F422 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				E68475101C9C097900737C1B /* include */,
 				E6A6CAFA1C9BF3940051F422 /* GView_Storyboard */,
 			);
 			path = GUI;
@@ -573,6 +601,10 @@
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GFoundation/GUI",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -596,6 +628,10 @@
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GFoundation/GUI",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

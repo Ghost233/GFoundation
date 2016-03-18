@@ -1,6 +1,0 @@
-framework module GUIFramework {
-  umbrella header "GUIFramework.h"
-
-  export *
-  module * { export * }
-}

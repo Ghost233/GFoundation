@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GFoundation'
-  s.version      = '0.0.33'
+  s.version      = '0.0.34'
   s.summary      = 'A short description of GFoundation.'
   s.description  = <<-DESC
                    Private Foundation to help coding.
@@ -28,11 +28,6 @@ Pod::Spec.new do |s|
   
   s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
     spec.public_header_files = [
-      'GFoundation/Library/GUIFramework.framework/Headers/*.h'
-    ]
-  
-  s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
-  s.public_header_files = [
       'GFoundation/Library/GUIFramework.framework/Headers/*.h'
     ]
 end

@@ -28,4 +28,5 @@ Pod::Spec.new do |s|
   s.dependency 'NSLogger'
   s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
   s.preserve_paths = 'GFoundation/Library/*.framework'
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(FRAMEWORK_SEARCH_PATHS)/GUIFramework.framework/Headers" }
 end

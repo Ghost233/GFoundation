@@ -23,6 +23,7 @@
 		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
 		E68474B41C9C06A400737C1B /* libGUIFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68474B31C9C06A400737C1B /* libGUIFramework.a */; };
 		E684751F1C9C0EAD00737C1B /* GRoundRectangleBoxView+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E684751E1C9C0EAD00737C1B /* GRoundRectangleBoxView+Storyboard.m */; };
+		E6A291531C9C3DE30021D3B3 /* GUIFramework+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A291511C9C3DE30021D3B3 /* GUIFramework+Storyboard.m */; };
 		E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */; };
 		E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */; };
 		E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB031C9BF3940051F422 /* NSDictionaryExtensions.m */; };
@@ -82,14 +83,16 @@
 		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
 		E68474B31C9C06A400737C1B /* libGUIFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIFramework.a; path = GFoundation/GUI/libGUIFramework.a; sourceTree = "<group>"; };
-		E68475121C9C097900737C1B /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
-		E68475131C9C097900737C1B /* GRoundProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBar.h; sourceTree = "<group>"; };
-		E68475141C9C097900737C1B /* GRoundRectangleBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView.h; sourceTree = "<group>"; };
-		E68475151C9C097900737C1B /* GRoundRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleView.h; sourceTree = "<group>"; };
-		E68475161C9C097900737C1B /* GRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundView.h; sourceTree = "<group>"; };
-		E68475171C9C097900737C1B /* GUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFramework.h; sourceTree = "<group>"; };
 		E684751D1C9C0EAD00737C1B /* GRoundRectangleBoxView+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRoundRectangleBoxView+Storyboard.h"; sourceTree = "<group>"; };
 		E684751E1C9C0EAD00737C1B /* GRoundRectangleBoxView+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GRoundRectangleBoxView+Storyboard.m"; sourceTree = "<group>"; };
+		E6A2914B1C9C3DE30021D3B3 /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
+		E6A2914C1C9C3DE30021D3B3 /* GRoundProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBar.h; sourceTree = "<group>"; };
+		E6A2914D1C9C3DE30021D3B3 /* GRoundRectangleBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView.h; sourceTree = "<group>"; };
+		E6A2914E1C9C3DE30021D3B3 /* GRoundRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleView.h; sourceTree = "<group>"; };
+		E6A2914F1C9C3DE30021D3B3 /* GRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundView.h; sourceTree = "<group>"; };
+		E6A291501C9C3DE30021D3B3 /* GUIFramework+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GUIFramework+Storyboard.h"; sourceTree = "<group>"; };
+		E6A291511C9C3DE30021D3B3 /* GUIFramework+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GUIFramework+Storyboard.m"; sourceTree = "<group>"; };
+		E6A291521C9C3DE30021D3B3 /* GUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFramework.h; sourceTree = "<group>"; };
 		E6A6CAFE1C9BF3940051F422 /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
 		E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
 		E6A6CB001C9BF3940051F422 /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataExtensions.h; sourceTree = "<group>"; };
@@ -230,23 +233,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E68475101C9C097900737C1B /* include */ = {
+		E6A291491C9C3DE30021D3B3 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				E68475111C9C097900737C1B /* GUIFramework */,
+				E6A2914A1C9C3DE30021D3B3 /* GUIFramework */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		E68475111C9C097900737C1B /* GUIFramework */ = {
+		E6A2914A1C9C3DE30021D3B3 /* GUIFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E68475121C9C097900737C1B /* GRoundBoxView.h */,
-				E68475131C9C097900737C1B /* GRoundProgressBar.h */,
-				E68475141C9C097900737C1B /* GRoundRectangleBoxView.h */,
-				E68475151C9C097900737C1B /* GRoundRectangleView.h */,
-				E68475161C9C097900737C1B /* GRoundView.h */,
-				E68475171C9C097900737C1B /* GUIFramework.h */,
+				E6A2914B1C9C3DE30021D3B3 /* GRoundBoxView.h */,
+				E6A2914C1C9C3DE30021D3B3 /* GRoundProgressBar.h */,
+				E6A2914D1C9C3DE30021D3B3 /* GRoundRectangleBoxView.h */,
+				E6A2914E1C9C3DE30021D3B3 /* GRoundRectangleView.h */,
+				E6A2914F1C9C3DE30021D3B3 /* GRoundView.h */,
+				E6A291501C9C3DE30021D3B3 /* GUIFramework+Storyboard.h */,
+				E6A291511C9C3DE30021D3B3 /* GUIFramework+Storyboard.m */,
+				E6A291521C9C3DE30021D3B3 /* GUIFramework.h */,
 			);
 			path = GUIFramework;
 			sourceTree = "<group>";
@@ -254,7 +259,7 @@
 		E6A6CAF81C9BF3940051F422 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				E68475101C9C097900737C1B /* include */,
+				E6A291491C9C3DE30021D3B3 /* include */,
 				E6A6CAFA1C9BF3940051F422 /* GView_Storyboard */,
 			);
 			path = GUI;
@@ -466,6 +471,7 @@
 				E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */,
 				E684751F1C9C0EAD00737C1B /* GRoundRectangleBoxView+Storyboard.m in Sources */,
 				E6A6CB161C9BF3940051F422 /* NSString+MD5.m in Sources */,
+				E6A291531C9C3DE30021D3B3 /* GUIFramework+Storyboard.m in Sources */,
 				E617B6621BEB416900501A69 /* GRoundProgressBarTestViewController.m in Sources */,
 				E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */,
 				E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */,

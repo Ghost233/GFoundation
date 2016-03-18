@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   #GooglePlus
   s.subspec "GUI" do |ui|
-    ui.source_files  = 'GFoundation/GUI/*.{h.m}', 'GFoundation/GUI/GUIFramework.framework/Headers/*.{h,m}'
+    ui.source_files  = 'GFoundation/GUI/*.{h.m}', 'GFoundation/GUI/GView_Storyboard/*.{h,m}'
     ui.ios.vendored_frameworks = 'GFoundation/GUI/GUIFramework.framework'
   end
 end

@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.author       = { 'Ghost233' => 'only.yesc@gmail.com' }
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'http://github.com/Ghost233/GFoundation.git'}
-  s.source_files  = 'GFoundation/GFoundation/*.{h.m}', 'GFoundation/GFoundation/**/*.{h,m}'
-  s.public_header_files = "GFoundation/GFoundation/*.h", 'GFoundation/GFoundation/**/*.h', 'GFoundation/Library/GUIFramework.framework/Headers/*.h'
   s.requires_arc = true
+  s.module_name = 'GFoundation'
+  
   s.dependency 'pop'
   s.dependency 'FMDB'
   s.dependency 'YYKit'
@@ -26,7 +26,15 @@ Pod::Spec.new do |s|
   s.dependency 'FDStackView'
   s.dependency 'XXNibBridge'
   s.dependency 'NSLogger'
-  s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
-  s.preserve_paths = 'GFoundation/Library/*.framework'
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(FRAMEWORK_SEARCH_PATHS)/GUIFramework.framework/Headers" }
+  
+  #base
+  s.subspec "Core" do |core|
+	core.source_files  = 'GFoundation/Core/*.{h.m}', 'GFoundation/Core/**/*.{h,m}'
+  end
+
+  #GooglePlus
+  s.subspec "GUI" do |ui|
+    ui.source_files  = 'GFoundation/GUI/*.{h.m}', 'GFoundation/GUI/GUIFramework.framework/Headers/*.{h,m}'
+    ui.ios.vendored_frameworks = 'GFoundation/GUI/GUIFramework.framework'
+  end
 end

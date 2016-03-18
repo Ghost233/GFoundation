@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA26FBD2D9A67C63D5689BF4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B4D7B5D2D15E852CF8F51C /* Pods.framework */; };
-		E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = E60B5BF719D14B6200AC623A /* NSString+DES.m */; };
 		E617B6621BEB416900501A69 /* GRoundProgressBarTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
 		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
@@ -22,13 +21,14 @@
 		E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
 		E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */; };
 		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
-		E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */; };
-		E683BA3119B6EB6B00BADEAD /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1019B6EB6B00BADEAD /* NSDataExtensions.m */; };
-		E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1219B6EB6B00BADEAD /* NSDictionaryExtensions.m */; };
-		E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */; };
-		E683BA3419B6EB6B00BADEAD /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */; };
-		E683BA3519B6EB6B00BADEAD /* UIView+CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */; };
-		E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA2219B6EB6B00BADEAD /* GTMBase64.m */; };
+		E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */; };
+		E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */; };
+		E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB031C9BF3940051F422 /* NSDictionaryExtensions.m */; };
+		E6A6CB151C9BF3940051F422 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB051C9BF3940051F422 /* NSString+DES.m */; };
+		E6A6CB161C9BF3940051F422 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB071C9BF3940051F422 /* NSString+MD5.m */; };
+		E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB091C9BF3940051F422 /* NSStringExtensions.m */; };
+		E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */; };
+		E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */; };
 		E6B307FE1C9BD01E008D2738 /* GUIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B307FD1C9BD01E008D2738 /* GUIFramework.framework */; };
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
@@ -62,11 +62,8 @@
 		20F6C604924FDEB8F18F0205 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		82B4D7B5D2D15E852CF8F51C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F3CE8F6C3D2703BB800758 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		E60B5BF619D14B6200AC623A /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
-		E60B5BF719D14B6200AC623A /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
 		E617B6601BEB416900501A69 /* GRoundProgressBarTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBarTestViewController.h; sourceTree = "<group>"; };
 		E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundProgressBarTestViewController.m; sourceTree = "<group>"; };
-		E626EB971C91B5BA00B6FA07 /* GRoundRectangleBoxView_Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView_Storyboard.h; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,22 +80,25 @@
 		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
-		E683BA0D19B6EB6B00BADEAD /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
-		E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
-		E683BA0F19B6EB6B00BADEAD /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataExtensions.h; sourceTree = "<group>"; };
-		E683BA1019B6EB6B00BADEAD /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataExtensions.m; sourceTree = "<group>"; };
-		E683BA1119B6EB6B00BADEAD /* NSDictionaryExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtensions.h; sourceTree = "<group>"; };
-		E683BA1219B6EB6B00BADEAD /* NSDictionaryExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryExtensions.m; sourceTree = "<group>"; };
-		E683BA1319B6EB6B00BADEAD /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		E683BA1519B6EB6B00BADEAD /* NSStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtensions.h; sourceTree = "<group>"; };
-		E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensions.m; sourceTree = "<group>"; };
-		E683BA1719B6EB6B00BADEAD /* UIView+CGRectExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRectExtension.h"; sourceTree = "<group>"; };
-		E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRectExtension.m"; sourceTree = "<group>"; };
-		E683BA2119B6EB6B00BADEAD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		E683BA2219B6EB6B00BADEAD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		E683BA2319B6EB6B00BADEAD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		E68571D319CDA08C0025DD18 /* GFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFoundation.h; sourceTree = "<group>"; };
+		E6A6CAFB1C9BF3940051F422 /* GRoundRectangleBoxView_Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView_Storyboard.h; sourceTree = "<group>"; };
+		E6A6CAFE1C9BF3940051F422 /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
+		E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
+		E6A6CB001C9BF3940051F422 /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataExtensions.h; sourceTree = "<group>"; };
+		E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataExtensions.m; sourceTree = "<group>"; };
+		E6A6CB021C9BF3940051F422 /* NSDictionaryExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryExtensions.h; sourceTree = "<group>"; };
+		E6A6CB031C9BF3940051F422 /* NSDictionaryExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryExtensions.m; sourceTree = "<group>"; };
+		E6A6CB041C9BF3940051F422 /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
+		E6A6CB051C9BF3940051F422 /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		E6A6CB061C9BF3940051F422 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E6A6CB071C9BF3940051F422 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E6A6CB081C9BF3940051F422 /* NSStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtensions.h; sourceTree = "<group>"; };
+		E6A6CB091C9BF3940051F422 /* NSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensions.m; sourceTree = "<group>"; };
+		E6A6CB0A1C9BF3940051F422 /* UIView+CGRectExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGRectExtension.h"; sourceTree = "<group>"; };
+		E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGRectExtension.m"; sourceTree = "<group>"; };
+		E6A6CB0C1C9BF3940051F422 /* GFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFoundation.h; sourceTree = "<group>"; };
+		E6A6CB0E1C9BF3940051F422 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		E6A6CB101C9BF3940051F422 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		E6B307FD1C9BD01E008D2738 /* GUIFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GUIFramework.framework; path = GFoundation/Library/GUIFramework.framework; sourceTree = "<group>"; };
 		E6C5CD9D1BE33AA9001F67FA /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		E6C5CDA81BE33D3D001F67FA /* Launcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launcher.xib; sourceTree = "<group>"; };
@@ -141,14 +141,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E626EB961C91B5A800B6FA07 /* GView_Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				E626EB971C91B5BA00B6FA07 /* GRoundRectangleBoxView_Storyboard.h */,
-			);
-			path = GView_Storyboard;
-			sourceTree = "<group>";
-		};
 		E683B9C719B6E9EE00BADEAD = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +177,8 @@
 		E683B9D919B6E9EE00BADEAD /* GFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				E683BA0B19B6EB5D00BADEAD /* GFoundation */,
+				E6A6CAF81C9BF3940051F422 /* GUI */,
+				E6A6CAFC1C9BF3940051F422 /* Core */,
 				E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */,
 				E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */,
 				E6C5CD9D1BE33AA9001F67FA /* main.storyboard */,
@@ -229,44 +222,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E683BA0B19B6EB5D00BADEAD /* GFoundation */ = {
+		E6A6CAF81C9BF3940051F422 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				E626EB961C91B5A800B6FA07 /* GView_Storyboard */,
-				E683BA0C19B6EB6B00BADEAD /* Extensions */,
-				E683BA2019B6EB6B00BADEAD /* GTMBase64 */,
-				E68571D319CDA08C0025DD18 /* GFoundation.h */,
+				E6A6CAFA1C9BF3940051F422 /* GView_Storyboard */,
 			);
-			path = GFoundation;
+			path = GUI;
 			sourceTree = "<group>";
 		};
-		E683BA0C19B6EB6B00BADEAD /* Extensions */ = {
+		E6A6CAFA1C9BF3940051F422 /* GView_Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				E60B5BF619D14B6200AC623A /* NSString+DES.h */,
-				E60B5BF719D14B6200AC623A /* NSString+DES.m */,
-				E683BA0D19B6EB6B00BADEAD /* NSArrayExtensions.h */,
-				E683BA0E19B6EB6B00BADEAD /* NSArrayExtensions.m */,
-				E683BA0F19B6EB6B00BADEAD /* NSDataExtensions.h */,
-				E683BA1019B6EB6B00BADEAD /* NSDataExtensions.m */,
-				E683BA1119B6EB6B00BADEAD /* NSDictionaryExtensions.h */,
-				E683BA1219B6EB6B00BADEAD /* NSDictionaryExtensions.m */,
-				E683BA1319B6EB6B00BADEAD /* NSString+MD5.h */,
-				E683BA1419B6EB6B00BADEAD /* NSString+MD5.m */,
-				E683BA1519B6EB6B00BADEAD /* NSStringExtensions.h */,
-				E683BA1619B6EB6B00BADEAD /* NSStringExtensions.m */,
-				E683BA1719B6EB6B00BADEAD /* UIView+CGRectExtension.h */,
-				E683BA1819B6EB6B00BADEAD /* UIView+CGRectExtension.m */,
+				E6A6CAFB1C9BF3940051F422 /* GRoundRectangleBoxView_Storyboard.h */,
+			);
+			path = GView_Storyboard;
+			sourceTree = "<group>";
+		};
+		E6A6CAFC1C9BF3940051F422 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E6A6CAFD1C9BF3940051F422 /* Extensions */,
+				E6A6CB0C1C9BF3940051F422 /* GFoundation.h */,
+				E6A6CB0D1C9BF3940051F422 /* GTMBase64 */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E6A6CAFD1C9BF3940051F422 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6A6CAFE1C9BF3940051F422 /* NSArrayExtensions.h */,
+				E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */,
+				E6A6CB001C9BF3940051F422 /* NSDataExtensions.h */,
+				E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */,
+				E6A6CB021C9BF3940051F422 /* NSDictionaryExtensions.h */,
+				E6A6CB031C9BF3940051F422 /* NSDictionaryExtensions.m */,
+				E6A6CB041C9BF3940051F422 /* NSString+DES.h */,
+				E6A6CB051C9BF3940051F422 /* NSString+DES.m */,
+				E6A6CB061C9BF3940051F422 /* NSString+MD5.h */,
+				E6A6CB071C9BF3940051F422 /* NSString+MD5.m */,
+				E6A6CB081C9BF3940051F422 /* NSStringExtensions.h */,
+				E6A6CB091C9BF3940051F422 /* NSStringExtensions.m */,
+				E6A6CB0A1C9BF3940051F422 /* UIView+CGRectExtension.h */,
+				E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E683BA2019B6EB6B00BADEAD /* GTMBase64 */ = {
+		E6A6CB0D1C9BF3940051F422 /* GTMBase64 */ = {
 			isa = PBXGroup;
 			children = (
-				E683BA2119B6EB6B00BADEAD /* GTMBase64.h */,
-				E683BA2219B6EB6B00BADEAD /* GTMBase64.m */,
-				E683BA2319B6EB6B00BADEAD /* GTMDefines.h */,
+				E6A6CB0E1C9BF3940051F422 /* GTMBase64.h */,
+				E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */,
+				E6A6CB101C9BF3940051F422 /* GTMDefines.h */,
 			);
 			path = GTMBase64;
 			sourceTree = "<group>";
@@ -422,18 +430,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A6CB151C9BF3940051F422 /* NSString+DES.m in Sources */,
+				E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */,
+				E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */,
+				E6A6CB161C9BF3940051F422 /* NSString+MD5.m in Sources */,
 				E617B6621BEB416900501A69 /* GRoundProgressBarTestViewController.m in Sources */,
+				E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */,
+				E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */,
+				E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */,
 				E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */,
-				E683BA3119B6EB6B00BADEAD /* NSDataExtensions.m in Sources */,
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
-				E60B5BFA19D14B6200AC623A /* NSString+DES.m in Sources */,
-				E683BA3019B6EB6B00BADEAD /* NSArrayExtensions.m in Sources */,
-				E683BA3219B6EB6B00BADEAD /* NSDictionaryExtensions.m in Sources */,
-				E683BA3319B6EB6B00BADEAD /* NSString+MD5.m in Sources */,
-				E683BA3919B6EB6B00BADEAD /* GTMBase64.m in Sources */,
-				E683BA3419B6EB6B00BADEAD /* NSStringExtensions.m in Sources */,
-				E683BA3519B6EB6B00BADEAD /* UIView+CGRectExtension.m in Sources */,
+				E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +566,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GFoundation/Library",
 					"$(PROJECT_DIR)/GFoundation/GFoundation/Library",
+					"$(PROJECT_DIR)/GFoundation/GUI",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
@@ -580,6 +589,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/GFoundation/Library",
 					"$(PROJECT_DIR)/GFoundation/GFoundation/Library",
+					"$(PROJECT_DIR)/GFoundation/GUI",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";

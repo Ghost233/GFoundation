@@ -8,7 +8,7 @@
 
 #import "GAppDelegate.h"
 
-#import "GFoundation/GFoundation.h"
+#import "GFoundation.h"
 
 @implementation GAppDelegate
 

@@ -25,10 +25,9 @@ Pod::Spec.new do |s|
   s.dependency 'FDStackView'
   s.dependency 'XXNibBridge'
   s.dependency 'NSLogger'
-  s.subspec 'Universal' do |spec|
-    spec.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
-    spec.public_header_files = [
-      'GFoundation/Library/GUIFramework.framework/Headers/*.h'
-    ]
-  end
+  s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
+  s.public_header_files = [
+    'GFoundation/Library/GUIFramework.framework/Headers/*.h'
+  ]
+  s.preserve_paths = 'GFoundation/Library/*.framework'
 end

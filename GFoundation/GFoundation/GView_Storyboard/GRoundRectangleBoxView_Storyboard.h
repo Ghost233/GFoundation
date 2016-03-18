@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <GUIFramework/GUIFramework.h>
+//#import <GUIFramework/GUIFramework.h>
+#import <GRoundRectangleBoxView.h>
 
 IB_DESIGNABLE
 

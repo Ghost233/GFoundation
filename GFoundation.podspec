@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Ghost233' => 'only.yesc@gmail.com' }
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'http://github.com/Ghost233/GFoundation.git'}
-  s.source_files  = 'GFoundation/GFoundation/*.{h.m}', 'GFoundation/GFoundation/**/*.{h,m}', 'GFoundation/Library/GUIFramework.framework/Headers/*.h'
-  s.preserve_paths = 'GFoundation/Library/GUIFramework.framework/'
+  s.source_files  = 'GFoundation/GFoundation/*.{h.m}', 'GFoundation/GFoundation/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'pop'
   s.dependency 'FMDB'
@@ -26,5 +25,5 @@ Pod::Spec.new do |s|
   s.dependency 'FDStackView'
   s.dependency 'XXNibBridge'
   s.dependency 'NSLogger'
-  s.library = 'GUIFramework.framework'
+  s.ios.vendored_frameworks = 'GFoundation/Library/GUIFramework.framework'
 end

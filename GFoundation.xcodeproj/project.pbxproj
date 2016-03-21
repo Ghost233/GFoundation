@@ -35,6 +35,7 @@
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
+		E6D7F7D11C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,10 @@
 		E6C5CDA81BE33D3D001F67FA /* Launcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launcher.xib; sourceTree = "<group>"; };
 		E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainTableViewController.h; sourceTree = "<group>"; };
 		E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainTableViewController.m; sourceTree = "<group>"; };
+		E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIQuickStoryboardFramework.h; sourceTree = "<group>"; };
+		E6D7F7CC1C9D542D007AEBE1 /* UINavigationController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Storyboard.h"; sourceTree = "<group>"; };
+		E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QuickStoryboard.h"; sourceTree = "<group>"; };
+		E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIQuickStoryboardFramework.a; path = GFoundation/QuickStoryboard/libGUIQuickStoryboardFramework.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D7F7D11C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a in Frameworks */,
 				E68474B41C9C06A400737C1B /* libGUIFramework.a in Frameworks */,
 				E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */,
 				E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
@@ -175,6 +181,7 @@
 		E683B9D219B6E9EE00BADEAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */,
 				E68474B31C9C06A400737C1B /* libGUIFramework.a */,
 				E683B9D319B6E9EE00BADEAD /* Foundation.framework */,
 				E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */,
@@ -188,6 +195,7 @@
 		E683B9D919B6E9EE00BADEAD /* GFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				E6D7F7C81C9D542D007AEBE1 /* QuickStoryboard */,
 				E6A6CAF81C9BF3940051F422 /* GUI */,
 				E6A6CAFC1C9BF3940051F422 /* Core */,
 				E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */,
@@ -313,6 +321,32 @@
 				E6A6CB101C9BF3940051F422 /* GTMDefines.h */,
 			);
 			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		E6D7F7C81C9D542D007AEBE1 /* QuickStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				E6D7F7C91C9D542D007AEBE1 /* include */,
+			);
+			path = QuickStoryboard;
+			sourceTree = "<group>";
+		};
+		E6D7F7C91C9D542D007AEBE1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E6D7F7CA1C9D542D007AEBE1 /* GUIQuickStoryboardFramework */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E6D7F7CA1C9D542D007AEBE1 /* GUIQuickStoryboardFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */,
+				E6D7F7CC1C9D542D007AEBE1 /* UINavigationController+Storyboard.h */,
+				E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */,
+			);
+			path = GUIQuickStoryboardFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -614,6 +648,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GFoundation/GUI",
+					"$(PROJECT_DIR)/GFoundation/QuickStoryboard",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -641,6 +676,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GFoundation/GUI",
+					"$(PROJECT_DIR)/GFoundation/QuickStoryboard",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

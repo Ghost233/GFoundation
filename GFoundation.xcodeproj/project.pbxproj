@@ -32,6 +32,10 @@
 		E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB091C9BF3940051F422 /* NSStringExtensions.m */; };
 		E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */; };
 		E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */; };
+		E6B6F3791CA267DB004CB658 /* GSegueTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F3781CA267DB004CB658 /* GSegueTest2.m */; };
+		E6B6F37C1CA267E6004CB658 /* GSegueTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F37B1CA267E6004CB658 /* GSegueTest1.m */; };
+		E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F37E1CA267ED004CB658 /* GSegueTest3.m */; };
+		E6B6F3821CA267F4004CB658 /* GSegueTest4.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F3811CA267F3004CB658 /* GSegueTest4.m */; };
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
@@ -67,6 +71,9 @@
 		92F3CE8F6C3D2703BB800758 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E617B6601BEB416900501A69 /* GRoundProgressBarTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBarTestViewController.h; sourceTree = "<group>"; };
 		E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRoundProgressBarTestViewController.m; sourceTree = "<group>"; };
+		E631EF491CA134C500A4568F /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
+		E631EF4A1CA134C500A4568F /* PopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSegue.h; sourceTree = "<group>"; };
+		E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToThisVCSegue.h; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,12 +119,19 @@
 		E6A6CB0E1C9BF3940051F422 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		E6A6CB0F1C9BF3940051F422 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		E6A6CB101C9BF3940051F422 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E6B6F3771CA267DB004CB658 /* GSegueTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSegueTest2.h; sourceTree = "<group>"; };
+		E6B6F3781CA267DB004CB658 /* GSegueTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSegueTest2.m; sourceTree = "<group>"; };
+		E6B6F37A1CA267E6004CB658 /* GSegueTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSegueTest1.h; sourceTree = "<group>"; };
+		E6B6F37B1CA267E6004CB658 /* GSegueTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSegueTest1.m; sourceTree = "<group>"; };
+		E6B6F37D1CA267ED004CB658 /* GSegueTest3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSegueTest3.h; sourceTree = "<group>"; };
+		E6B6F37E1CA267ED004CB658 /* GSegueTest3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSegueTest3.m; sourceTree = "<group>"; };
+		E6B6F3801CA267F3004CB658 /* GSegueTest4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSegueTest4.h; sourceTree = "<group>"; };
+		E6B6F3811CA267F3004CB658 /* GSegueTest4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSegueTest4.m; sourceTree = "<group>"; };
 		E6C5CD9D1BE33AA9001F67FA /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		E6C5CDA81BE33D3D001F67FA /* Launcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launcher.xib; sourceTree = "<group>"; };
 		E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainTableViewController.h; sourceTree = "<group>"; };
 		E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainTableViewController.m; sourceTree = "<group>"; };
 		E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIQuickStoryboardFramework.h; sourceTree = "<group>"; };
-		E6D7F7CC1C9D542D007AEBE1 /* UINavigationController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Storyboard.h"; sourceTree = "<group>"; };
 		E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QuickStoryboard.h"; sourceTree = "<group>"; };
 		E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIQuickStoryboardFramework.a; path = GFoundation/QuickStoryboard/libGUIQuickStoryboardFramework.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +219,14 @@
 				E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */,
 				E617B6601BEB416900501A69 /* GRoundProgressBarTestViewController.h */,
 				E617B6611BEB416900501A69 /* GRoundProgressBarTestViewController.m */,
+				E6B6F37A1CA267E6004CB658 /* GSegueTest1.h */,
+				E6B6F37B1CA267E6004CB658 /* GSegueTest1.m */,
+				E6B6F37D1CA267ED004CB658 /* GSegueTest3.h */,
+				E6B6F37E1CA267ED004CB658 /* GSegueTest3.m */,
+				E6B6F3801CA267F3004CB658 /* GSegueTest4.h */,
+				E6B6F3811CA267F3004CB658 /* GSegueTest4.m */,
+				E6B6F3771CA267DB004CB658 /* GSegueTest2.h */,
+				E6B6F3781CA267DB004CB658 /* GSegueTest2.m */,
 				E683B9EE19B6E9EE00BADEAD /* Images.xcassets */,
 				E683B9DA19B6E9EE00BADEAD /* Supporting Files */,
 				E6C5CDA81BE33D3D001F67FA /* Launcher.xib */,
@@ -342,8 +364,10 @@
 		E6D7F7CA1C9D542D007AEBE1 /* GUIQuickStoryboardFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E631EF491CA134C500A4568F /* DismissSegue.h */,
+				E631EF4A1CA134C500A4568F /* PopSegue.h */,
+				E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */,
 				E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */,
-				E6D7F7CC1C9D542D007AEBE1 /* UINavigationController+Storyboard.h */,
 				E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */,
 			);
 			path = GUIQuickStoryboardFramework;
@@ -500,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B6F3821CA267F4004CB658 /* GSegueTest4.m in Sources */,
 				E6A6CB151C9BF3940051F422 /* NSString+DES.m in Sources */,
 				E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */,
 				E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */,
@@ -509,9 +534,12 @@
 				E617B6621BEB416900501A69 /* GRoundProgressBarTestViewController.m in Sources */,
 				E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */,
 				E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */,
+				E6B6F37C1CA267E6004CB658 /* GSegueTest1.m in Sources */,
+				E6B6F3791CA267DB004CB658 /* GSegueTest2.m in Sources */,
 				E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */,
 				E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */,
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
+				E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
 				E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */,
 			);

@@ -16,4 +16,22 @@
 - (IBAction)quickDismissSegue:(UIStoryboardSegue *)segue;
 - (IBAction)quickDismissSegueWithAnimate:(UIStoryboardSegue *)segue;
 
+- (IBAction)popViewControllerAction:(id)sender;
+- (IBAction)popViewControllerActionWithAnimate:(id)sender;
+
+- (IBAction)popViewControllerSegue:(UIStoryboardSegue *)segue;
+- (IBAction)popViewControllerSegueWithAnimate:(UIStoryboardSegue *)segue;
+
+- (IBAction)popToRootViewControllerAction:(id)sender;
+- (IBAction)popToRootViewControllerActionWithAnimate:(id)sender;
+
+- (IBAction)popToRootViewControllerSegue:(UIStoryboardSegue *)segue;
+- (IBAction)popToRootViewControllerSegueWithAnimate:(UIStoryboardSegue *)segue;
+
+- (IBAction)popToThisViewControllerSegue:(UIStoryboardSegue *)segue;
+- (IBAction)popToThisViewControllerSegueWithAnimate:(UIStoryboardSegue *)segue;
+
+- (IBAction)unwindSegue:(UIStoryboardSegue *)segue;
+- (IBAction)unwindSegueWithAnimate:(UIStoryboardSegue *)segue;
+
 @end

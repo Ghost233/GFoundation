@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7FK-Oq-ahs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7FK-Oq-ahs">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -116,6 +116,26 @@
                                     <segue destination="zfT-2A-2qO" kind="show" id="DsS-uI-SOH"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SegueTestIdentifier" textLabel="hDb-av-ieD" style="IBUITableViewCellStyleDefault" id="LLu-HN-e9S">
+                                <rect key="frame" x="0.0" y="312" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LLu-HN-e9S" id="nUf-Ke-1mF">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hDb-av-ieD">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="6wB-Hg-c7z" kind="show" id="e24-T9-w9M"/>
+                                </connections>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="6Nf-e7-5NK" id="LeX-yX-cO5"/>
@@ -222,6 +242,71 @@
             </objects>
             <point key="canvasLocation" x="2081" y="344"/>
         </scene>
+        <!--SegueTest1-->
+        <scene sceneID="J8B-kS-d7X">
+            <objects>
+                <viewController title="SegueTest1" id="6wB-Hg-c7z" customClass="GSegueTest1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vuW-Vk-x7w"/>
+                        <viewControllerLayoutGuide type="bottom" id="r5b-Iw-WhJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UdI-sA-aYt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIV-5E-oHU" customClass="GRoundView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hIV-5E-oHU" secondAttribute="height" id="mXv-pm-li3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziI-E6-05D">
+                                <rect key="frame" x="262" y="323" width="76" height="30"/>
+                                <state key="normal" title="POPtoRoot"/>
+                                <connections>
+                                    <segue destination="LjC-lt-ZF0" kind="unwind" unwindAction="popToRootViewControllerSegueWithAnimate:" id="Kd5-tq-65n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5f-Eb-Ln1">
+                                <rect key="frame" x="283" y="361" width="35" height="30"/>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="FUU-tb-oPe" kind="show" id="3pv-45-ktq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-F1-3RB">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="POP"/>
+                                <connections>
+                                    <segue destination="LjC-lt-ZF0" kind="unwind" unwindAction="popViewControllerSegueWithAnimate:" id="USC-sN-jcj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hIV-5E-oHU" firstAttribute="leading" secondItem="UdI-sA-aYt" secondAttribute="leadingMargin" constant="-20" id="1Na-eX-05W"/>
+                            <constraint firstItem="v5f-Eb-Ln1" firstAttribute="centerX" secondItem="ziI-E6-05D" secondAttribute="centerX" id="1jG-Wn-Udg"/>
+                            <constraint firstItem="hIV-5E-oHU" firstAttribute="centerY" secondItem="UdI-sA-aYt" secondAttribute="centerY" id="7Pw-2M-kAn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hIV-5E-oHU" secondAttribute="trailing" constant="-20" id="IeR-s0-Q1U"/>
+                            <constraint firstItem="ziI-E6-05D" firstAttribute="top" secondItem="TZu-F1-3RB" secondAttribute="bottom" constant="8" id="MHn-De-Nay"/>
+                            <constraint firstItem="ziI-E6-05D" firstAttribute="centerX" secondItem="TZu-F1-3RB" secondAttribute="centerX" id="Sx3-AE-mHw"/>
+                            <constraint firstItem="TZu-F1-3RB" firstAttribute="centerY" secondItem="UdI-sA-aYt" secondAttribute="centerY" id="V0b-Tb-8Qt"/>
+                            <constraint firstItem="TZu-F1-3RB" firstAttribute="centerX" secondItem="UdI-sA-aYt" secondAttribute="centerX" id="cHP-L0-Nip"/>
+                            <constraint firstItem="v5f-Eb-Ln1" firstAttribute="top" secondItem="ziI-E6-05D" secondAttribute="bottom" constant="8" id="kBM-CR-6sL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kDO-cz-qjy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="LjC-lt-ZF0" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2081" y="1141"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="cFw-11-hZQ">
             <objects>
@@ -283,7 +368,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dlw-7Q-udv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2081" y="1041"/>
+            <point key="canvasLocation" x="2873" y="344"/>
         </scene>
         <!--GRoundRectangleBoxView-->
         <scene sceneID="AH1-8o-zKg">
@@ -309,10 +394,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="radius">
-                                        <real key="value" value="25"/>
+                                        <real key="value" value="218"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
-                                        <real key="value" value="11"/>
+                                        <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -334,7 +419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDO-Uy-u8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2081" y="2491"/>
+            <point key="canvasLocation" x="4371" y="344"/>
         </scene>
         <!--GRoundRectangleView-->
         <scene sceneID="8Fk-QZ-mmc">
@@ -382,7 +467,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CU0-L9-Ws5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2081" y="3195"/>
+            <point key="canvasLocation" x="5107" y="344"/>
         </scene>
         <!--GRoundView-->
         <scene sceneID="LOq-oI-hb8">
@@ -432,7 +517,217 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yVC-Az-sH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2081" y="1757"/>
+            <point key="canvasLocation" x="3635" y="344"/>
+        </scene>
+        <!--SegueTest2-->
+        <scene sceneID="Rua-vg-8Pc">
+            <objects>
+                <viewController title="SegueTest2" id="FUU-tb-oPe" customClass="GSegueTest2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vwe-d1-YAS"/>
+                        <viewControllerLayoutGuide type="bottom" id="C3T-8q-gYo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gZB-39-bSB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLG-WC-dft" customClass="GRoundView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lLG-WC-dft" secondAttribute="height" id="rph-ve-2QW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pze-h9-Xdm">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="POP"/>
+                                <connections>
+                                    <segue destination="Nx8-Mm-eJe" kind="unwind" unwindAction="popViewControllerSegueWithAnimate:" id="dmw-Lx-mf2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7n5-qa-ViK">
+                                <rect key="frame" x="262" y="323" width="76" height="30"/>
+                                <state key="normal" title="POPtoRoot"/>
+                                <connections>
+                                    <segue destination="Nx8-Mm-eJe" kind="unwind" unwindAction="popToRootViewControllerSegueWithAnimate:" id="2YS-kP-zKR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yr-eJ-2jl">
+                                <rect key="frame" x="283" y="361" width="35" height="30"/>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="h9Y-ID-cfL" kind="show" id="X2G-nc-WCW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="lLG-WC-dft" secondAttribute="trailing" constant="-20" id="6rG-lK-tsa"/>
+                            <constraint firstItem="9yr-eJ-2jl" firstAttribute="top" secondItem="7n5-qa-ViK" secondAttribute="bottom" constant="8" id="ElF-m5-SiM"/>
+                            <constraint firstItem="9yr-eJ-2jl" firstAttribute="centerX" secondItem="7n5-qa-ViK" secondAttribute="centerX" id="dB1-Tt-Afa"/>
+                            <constraint firstItem="7n5-qa-ViK" firstAttribute="centerX" secondItem="pze-h9-Xdm" secondAttribute="centerX" id="eoc-hF-AoO"/>
+                            <constraint firstItem="7n5-qa-ViK" firstAttribute="top" secondItem="pze-h9-Xdm" secondAttribute="bottom" constant="8" id="gKR-ap-q2n"/>
+                            <constraint firstItem="lLG-WC-dft" firstAttribute="centerY" secondItem="gZB-39-bSB" secondAttribute="centerY" id="haR-JA-hTX"/>
+                            <constraint firstItem="pze-h9-Xdm" firstAttribute="centerY" secondItem="gZB-39-bSB" secondAttribute="centerY" id="o8X-5W-bpZ"/>
+                            <constraint firstItem="pze-h9-Xdm" firstAttribute="centerX" secondItem="gZB-39-bSB" secondAttribute="centerX" id="raG-uP-XS7"/>
+                            <constraint firstItem="lLG-WC-dft" firstAttribute="leading" secondItem="gZB-39-bSB" secondAttribute="leadingMargin" constant="-20" id="wTS-bx-erk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xTf-iJ-PM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Nx8-Mm-eJe" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2873" y="1141"/>
+        </scene>
+        <!--SegueTest4-->
+        <scene sceneID="AFc-DX-YJQ">
+            <objects>
+                <viewController title="SegueTest4" id="VUK-o4-MPB" customClass="GSegueTest4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Be1-8T-5bG"/>
+                        <viewControllerLayoutGuide type="bottom" id="MvH-Cf-BKc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hnj-im-lX3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKk-Zj-hBT" customClass="GRoundView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PKk-Zj-hBT" secondAttribute="height" id="S7Q-G4-S45"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6F-B3-wzU">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="POP"/>
+                                <connections>
+                                    <segue destination="tIg-fg-F1c" kind="unwind" unwindAction="popViewControllerSegueWithAnimate:" id="vIa-cj-eEX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jx-cx-LwR">
+                                <rect key="frame" x="262" y="323" width="76" height="30"/>
+                                <state key="normal" title="POPtoRoot"/>
+                                <connections>
+                                    <segue destination="tIg-fg-F1c" kind="unwind" unwindAction="popToRootViewControllerSegueWithAnimate:" id="BXm-u4-UEN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yG-ky-eI1">
+                                <rect key="frame" x="283" y="361" width="35" height="30"/>
+                                <state key="normal" title="Push"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGu-RY-BTS">
+                                <rect key="frame" x="262" y="399" width="77" height="30"/>
+                                <state key="normal" title="POPToFirst"/>
+                                <connections>
+                                    <segue destination="LjC-lt-ZF0" kind="unwind" unwindAction="backToTest1:" id="0f5-3I-hkX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c86-hB-C1M">
+                                <rect key="frame" x="262" y="437" width="77" height="30"/>
+                                <state key="normal" title="POPToFirst"/>
+                                <connections>
+                                    <segue destination="LjC-lt-ZF0" kind="unwind" unwindAction="popToThisViewControllerSegueWithAnimate:" id="PWk-z1-F0V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4jx-cx-LwR" firstAttribute="centerX" secondItem="W6F-B3-wzU" secondAttribute="centerX" id="4Z7-SQ-1J4"/>
+                            <constraint firstItem="4jx-cx-LwR" firstAttribute="top" secondItem="W6F-B3-wzU" secondAttribute="bottom" constant="8" id="CLp-jY-E9U"/>
+                            <constraint firstItem="c86-hB-C1M" firstAttribute="top" secondItem="RGu-RY-BTS" secondAttribute="bottom" constant="8" id="Cib-U9-nlC"/>
+                            <constraint firstItem="W6F-B3-wzU" firstAttribute="centerX" secondItem="Hnj-im-lX3" secondAttribute="centerX" id="Nlf-c4-thK"/>
+                            <constraint firstItem="c86-hB-C1M" firstAttribute="centerX" secondItem="RGu-RY-BTS" secondAttribute="centerX" id="ONk-Nv-cCw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PKk-Zj-hBT" secondAttribute="trailing" constant="-20" id="Uvv-eg-gKL"/>
+                            <constraint firstItem="RGu-RY-BTS" firstAttribute="top" secondItem="3yG-ky-eI1" secondAttribute="bottom" constant="8" id="WTD-7G-Eq1"/>
+                            <constraint firstItem="W6F-B3-wzU" firstAttribute="centerY" secondItem="Hnj-im-lX3" secondAttribute="centerY" id="fMb-NL-oU8"/>
+                            <constraint firstItem="3yG-ky-eI1" firstAttribute="top" secondItem="4jx-cx-LwR" secondAttribute="bottom" constant="8" id="hkp-l9-xbH"/>
+                            <constraint firstItem="RGu-RY-BTS" firstAttribute="centerX" secondItem="3yG-ky-eI1" secondAttribute="centerX" id="k8o-YY-lRT"/>
+                            <constraint firstItem="PKk-Zj-hBT" firstAttribute="centerY" secondItem="Hnj-im-lX3" secondAttribute="centerY" id="qAL-AD-gkv"/>
+                            <constraint firstItem="PKk-Zj-hBT" firstAttribute="leading" secondItem="Hnj-im-lX3" secondAttribute="leadingMargin" constant="-20" id="rVt-zt-TGO"/>
+                            <constraint firstItem="3yG-ky-eI1" firstAttribute="centerX" secondItem="4jx-cx-LwR" secondAttribute="centerX" id="uNO-Ru-9QZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U8H-6Z-D4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="tIg-fg-F1c" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="4371" y="1141"/>
+        </scene>
+        <!--SegueTest3-->
+        <scene sceneID="Hee-t1-Al5">
+            <objects>
+                <viewController title="SegueTest3" id="h9Y-ID-cfL" customClass="GSegueTest3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0UG-ib-3jE"/>
+                        <viewControllerLayoutGuide type="bottom" id="fuy-Ic-L8k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Arh-9Y-OSj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAb-Pm-Bh2" customClass="GRoundView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nAb-Pm-Bh2" secondAttribute="height" id="4fr-wr-mwm"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJJ-HJ-PZb">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="POP"/>
+                                <connections>
+                                    <segue destination="31M-5I-dOI" kind="unwind" unwindAction="popViewControllerSegueWithAnimate:" id="cCm-cA-RXk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGQ-59-J7P">
+                                <rect key="frame" x="262" y="323" width="76" height="30"/>
+                                <state key="normal" title="POPtoRoot"/>
+                                <connections>
+                                    <segue destination="31M-5I-dOI" kind="unwind" unwindAction="popToRootViewControllerSegueWithAnimate:" id="nCk-oy-BYi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ3-9K-c9Z">
+                                <rect key="frame" x="283" y="361" width="35" height="30"/>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="VUK-o4-MPB" kind="show" id="a6A-5b-gA6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="nAb-Pm-Bh2" secondAttribute="trailing" constant="-20" id="0rS-Ta-ojO"/>
+                            <constraint firstItem="nAb-Pm-Bh2" firstAttribute="centerY" secondItem="Arh-9Y-OSj" secondAttribute="centerY" id="98M-xR-qgt"/>
+                            <constraint firstItem="UJJ-HJ-PZb" firstAttribute="centerY" secondItem="Arh-9Y-OSj" secondAttribute="centerY" id="F6W-wu-XHO"/>
+                            <constraint firstItem="nAb-Pm-Bh2" firstAttribute="leading" secondItem="Arh-9Y-OSj" secondAttribute="leadingMargin" constant="-20" id="Msj-6z-psm"/>
+                            <constraint firstItem="UJJ-HJ-PZb" firstAttribute="centerX" secondItem="Arh-9Y-OSj" secondAttribute="centerX" id="Qh6-kb-BuB"/>
+                            <constraint firstItem="RGQ-59-J7P" firstAttribute="centerX" secondItem="UJJ-HJ-PZb" secondAttribute="centerX" id="T8M-4J-dRd"/>
+                            <constraint firstItem="ZQ3-9K-c9Z" firstAttribute="top" secondItem="RGQ-59-J7P" secondAttribute="bottom" constant="8" id="U9y-km-Ydf"/>
+                            <constraint firstItem="RGQ-59-J7P" firstAttribute="top" secondItem="UJJ-HJ-PZb" secondAttribute="bottom" constant="8" id="bN0-oJ-UIf"/>
+                            <constraint firstItem="ZQ3-9K-c9Z" firstAttribute="centerX" secondItem="RGQ-59-J7P" secondAttribute="centerX" id="fFd-z9-Oex"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwQ-Vr-T5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="31M-5I-dOI" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3635" y="1141"/>
         </scene>
     </scenes>
 </document>

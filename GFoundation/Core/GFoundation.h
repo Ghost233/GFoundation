@@ -18,6 +18,9 @@
 #import <UITableView_FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <YYKit/YYKit.h>
+#import <GFoundation/GUIQuickStoryboardFramework.h>
+#import <GFoundation/GUIFramework.h>
+
 
 #ifdef DEBUG
 # define DNSLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);

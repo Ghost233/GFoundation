@@ -16,9 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - FDFullscreenPopGesture (1.1)
   - FDStackView (1.0)
-  - FMDB (2.6):
-    - FMDB/standard (= 2.6)
-  - FMDB/standard (2.6)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
@@ -42,9 +42,9 @@ PODS:
   - UITableView+FDTemplateLayoutCell (1.4)
   - UIView+FDCollapsibleConstraints (1.1)
   - XXNibBridge (2.2.3)
-  - YYKit (1.0.2):
-    - YYKit/no-arc (= 1.0.2)
-  - YYKit/no-arc (1.0.2)
+  - YYKit (1.0.3):
+    - YYKit/no-arc (= 1.0.3)
+  - YYKit/no-arc (1.0.3)
 
 DEPENDENCIES:
   - AFNetworking
@@ -65,7 +65,7 @@ SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
-  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   NSLogger: 5ed223a2436df96244e033be750656dacdeec034
@@ -75,6 +75,6 @@ SPEC CHECKSUMS:
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
   XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
-  YYKit: 90574c513a0f618a0a6dbbedcda30fb4ad29fdb0
+  YYKit: fa66d61240458f14562c33c85c91d11131e43261
 
 COCOAPODS: 0.39.0

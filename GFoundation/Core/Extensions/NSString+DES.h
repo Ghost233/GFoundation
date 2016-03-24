@@ -8,11 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <CommonCrypto/CommonDigest.h>
-#import <CommonCrypto/CommonCrypto.h>
-
 @interface NSString (DES)
 
-+ (NSData *)encrypt:(NSData *)data encryptOrDecrypt:(CCOperation)encryptOperation key:(NSString *)key;
++ (NSData *)encrypt:(NSData *)data key:(NSString *)key;
++ (NSData *)decrypt:(NSData *)data key:(NSString *)key;
 
 @end

@@ -21,7 +21,6 @@
 		E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
 		E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */; };
 		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
-		E68474B41C9C06A400737C1B /* libGUIFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68474B31C9C06A400737C1B /* libGUIFramework.a */; };
 		E6A291531C9C3DE30021D3B3 /* GUIFramework+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A291511C9C3DE30021D3B3 /* GUIFramework+Storyboard.m */; };
 		E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */; };
 		E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */; };
@@ -35,10 +34,11 @@
 		E6B6F37C1CA267E6004CB658 /* GSegueTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F37B1CA267E6004CB658 /* GSegueTest1.m */; };
 		E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F37E1CA267ED004CB658 /* GSegueTest3.m */; };
 		E6B6F3821CA267F4004CB658 /* GSegueTest4.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6F3811CA267F3004CB658 /* GSegueTest4.m */; };
+		E6C478B01CA42C10008238DE /* libGUIQuickStoryboardFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C478AF1CA42C10008238DE /* libGUIQuickStoryboardFramework.a */; };
+		E6C478B21CA42C1D008238DE /* libGUIFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C478B11CA42C1D008238DE /* libGUIFramework.a */; };
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
-		E6D7F7D11C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +89,6 @@
 		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
-		E68474B31C9C06A400737C1B /* libGUIFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIFramework.a; path = GFoundation/GUI/libGUIFramework.a; sourceTree = "<group>"; };
 		E6A2914B1C9C3DE30021D3B3 /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
 		E6A2914C1C9C3DE30021D3B3 /* GRoundProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundProgressBar.h; sourceTree = "<group>"; };
 		E6A2914D1C9C3DE30021D3B3 /* GRoundRectangleBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView.h; sourceTree = "<group>"; };
@@ -124,13 +123,14 @@
 		E6B6F37E1CA267ED004CB658 /* GSegueTest3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSegueTest3.m; sourceTree = "<group>"; };
 		E6B6F3801CA267F3004CB658 /* GSegueTest4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSegueTest4.h; sourceTree = "<group>"; };
 		E6B6F3811CA267F3004CB658 /* GSegueTest4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSegueTest4.m; sourceTree = "<group>"; };
+		E6C478AF1CA42C10008238DE /* libGUIQuickStoryboardFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIQuickStoryboardFramework.a; path = GFoundation/QuickStoryboard/libGUIQuickStoryboardFramework.a; sourceTree = "<group>"; };
+		E6C478B11CA42C1D008238DE /* libGUIFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIFramework.a; path = GFoundation/GUI/libGUIFramework.a; sourceTree = "<group>"; };
 		E6C5CD9D1BE33AA9001F67FA /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		E6C5CDA81BE33D3D001F67FA /* Launcher.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launcher.xib; sourceTree = "<group>"; };
 		E6C5CDAD1BE340B9001F67FA /* GMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainTableViewController.h; sourceTree = "<group>"; };
 		E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainTableViewController.m; sourceTree = "<group>"; };
 		E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIQuickStoryboardFramework.h; sourceTree = "<group>"; };
 		E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QuickStoryboard.h"; sourceTree = "<group>"; };
-		E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGUIQuickStoryboardFramework.a; path = GFoundation/QuickStoryboard/libGUIQuickStoryboardFramework.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D7F7D11C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a in Frameworks */,
-				E68474B41C9C06A400737C1B /* libGUIFramework.a in Frameworks */,
+				E6C478B21CA42C1D008238DE /* libGUIFramework.a in Frameworks */,
+				E6C478B01CA42C10008238DE /* libGUIQuickStoryboardFramework.a in Frameworks */,
 				E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */,
 				E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
 				E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */,
@@ -192,8 +192,8 @@
 		E683B9D219B6E9EE00BADEAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6D7F7D01C9D543E007AEBE1 /* libGUIQuickStoryboardFramework.a */,
-				E68474B31C9C06A400737C1B /* libGUIFramework.a */,
+				E6C478B11CA42C1D008238DE /* libGUIFramework.a */,
+				E6C478AF1CA42C10008238DE /* libGUIQuickStoryboardFramework.a */,
 				E683B9D319B6E9EE00BADEAD /* Foundation.framework */,
 				E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */,
 				E683B9D719B6E9EE00BADEAD /* UIKit.framework */,
@@ -648,12 +648,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GFoundation/Library",
-					"$(PROJECT_DIR)/GFoundation/GFoundation/Library",
-					"$(PROJECT_DIR)/GFoundation/GUI",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
@@ -661,8 +656,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/GFoundation/GUI",
 					"$(PROJECT_DIR)/GFoundation/QuickStoryboard",
+					"$(PROJECT_DIR)/GFoundation/GUI",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -676,12 +671,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GFoundation/Library",
-					"$(PROJECT_DIR)/GFoundation/GFoundation/Library",
-					"$(PROJECT_DIR)/GFoundation/GUI",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
 				INFOPLIST_FILE = "GFoundation/GFoundation-Info.plist";
@@ -689,8 +679,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/GFoundation/GUI",
 					"$(PROJECT_DIR)/GFoundation/QuickStoryboard",
+					"$(PROJECT_DIR)/GFoundation/GUI",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

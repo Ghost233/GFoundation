@@ -33,12 +33,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "GUI" do |ui|
-    ui.source_files  = 'GFoundation/GUI/include/GUIFramework/*.h', 'GFoundation/GUI/GView_Storyboard/*.{h,m}'
+    ui.source_files  = 'GFoundation/GUI/include/GUIFramework/*.{h,m}'
     ui.ios.vendored_library = 'GFoundation/GUI/libGUIFramework.a'
   end
   
   s.subspec "QuickStoryboard" do |qsb|
-    qsb.source_files  = 'GFoundation/QuickStoryboard/include/GUIQuickStoryboardFramework/*.h'
+    qsb.source_files  = 'GFoundation/QuickStoryboard/include/GUIQuickStoryboardFramework/*.{h,m}'
     qsb.ios.vendored_library = 'GFoundation/QuickStoryboard/libGUIQuickStoryboardFramework.a'
   end
 end

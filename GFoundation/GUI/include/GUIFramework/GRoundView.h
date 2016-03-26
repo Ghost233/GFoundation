@@ -14,4 +14,6 @@ IB_DESIGNABLE
 
 @property (nonatomic, strong) IBInspectable UIColor* color;
 
+- (void)drawCustomView:(CGRect)rect;
+
 @end

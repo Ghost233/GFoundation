@@ -15,4 +15,6 @@ IB_DESIGNABLE
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;
 @property (nonatomic, strong) IBInspectable UIColor* color;
 
+- (void)drawCustomView:(CGRect)rect;
+
 @end

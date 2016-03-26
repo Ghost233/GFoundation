@@ -26,6 +26,6 @@ IB_DESIGNABLE
 @property (nonatomic, readwrite) IBInspectable float strokeStart;
 @property (nonatomic, readwrite) IBInspectable float strokeEnd;
 
-- (void)setProgress:(float)progress WithAnimate:(BOOL)isAnimate;
+//- (void)setProgress:(float)progress WithAnimate:(BOOL)isAnimate;
 
 @end

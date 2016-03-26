@@ -30,11 +30,11 @@
 }
 
 - (IBAction)play:(id)sender {
-    [self.roundProgressBar setProgress:0.8 WithAnimate:YES];
+//    [self.roundProgressBar setProgress:0.8 WithAnimate:YES];
 }
 
 - (IBAction)reset:(id)sender {
-    [self.roundProgressBar setProgress:0 WithAnimate:YES];
+//    [self.roundProgressBar setProgress:0 WithAnimate:YES];
 }
 
 @end

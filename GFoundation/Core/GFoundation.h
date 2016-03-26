@@ -20,13 +20,7 @@
 #import <YYKit/YYKit.h>
 #import <GFoundation/GUIQuickStoryboardFramework.h>
 #import <GFoundation/GUIFramework.h>
-
-
-#ifdef DEBUG
-# define DNSLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
-#else
-# define DNSLog(...){};
-#endif
+#import <NSLogger/LoggerClient.h>
 
 #define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
 

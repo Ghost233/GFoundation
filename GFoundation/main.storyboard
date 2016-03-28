@@ -16,35 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GRoundProgressBarCellIdentifier" textLabel="8co-TL-PM9" style="IBUITableViewCellStyleDefault" id="RQR-EG-hN0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GRoundViewCellIdentifier" textLabel="yUh-TK-mEJ" style="IBUITableViewCellStyleDefault" id="mGd-LD-9nW">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RQR-EG-hN0" id="9vM-Iv-gIO">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8co-TL-PM9">
-                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="c67-aJ-Bjm" kind="show" id="Qqk-OP-3uR"/>
-                                </connections>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GRoundViewCellIdentifier" textLabel="yUh-TK-mEJ" style="IBUITableViewCellStyleDefault" id="mGd-LD-9nW">
-                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mGd-LD-9nW" id="ed2-I2-ofz">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yUh-TK-mEJ">
-                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -57,14 +37,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GRoundBoxViewCellIdentifier" textLabel="55K-2v-8uk" style="IBUITableViewCellStyleDefault" id="ybr-EJ-0CU">
-                                <rect key="frame" x="0.0" y="180" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ybr-EJ-0CU" id="S0F-rp-cvl">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="55K-2v-8uk">
-                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,14 +57,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GRoundRectangleBoxViewCellIdentifier" textLabel="LWU-mb-pb5" style="IBUITableViewCellStyleDefault" id="cEr-7w-MHZ">
-                                <rect key="frame" x="0.0" y="224" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="180" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cEr-7w-MHZ" id="gXt-Av-GJK">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LWU-mb-pb5">
-                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,14 +77,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GRoundRectangleViewCellIdentifier" textLabel="Lpf-V0-wH3" style="IBUITableViewCellStyleDefault" id="Oh7-Qh-GWL">
-                                <rect key="frame" x="0.0" y="268" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="224" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oh7-Qh-GWL" id="Nhv-jd-1it">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lpf-V0-wH3">
-                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,14 +97,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SegueTestIdentifier" textLabel="hDb-av-ieD" style="IBUITableViewCellStyleDefault" id="LLu-HN-e9S">
-                                <rect key="frame" x="0.0" y="312" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="268" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LLu-HN-e9S" id="nUf-Ke-1mF">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hDb-av-ieD">
-                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -147,100 +127,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CY-bK-wuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1263" y="344"/>
-        </scene>
-        <!--GRoundProgressBar-->
-        <scene sceneID="AzY-kM-1Jm">
-            <objects>
-                <viewController title="GRoundProgressBar" id="c67-aJ-Bjm" customClass="GRoundProgressBarTestViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FgU-lF-uuP"/>
-                        <viewControllerLayoutGuide type="bottom" id="0Jm-jA-l7c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dB2-9g-HB1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJr-YN-cGo">
-                                <rect key="frame" x="0.0" y="554" width="600" height="46"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seU-RL-C2S">
-                                        <rect key="frame" x="8" y="8" width="89" height="30"/>
-                                        <state key="normal" title="Play Animate"/>
-                                        <connections>
-                                            <action selector="play:" destination="c67-aJ-Bjm" eventType="touchUpInside" id="VOT-Kd-CoJ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-MB-YEo">
-                                        <rect key="frame" x="105" y="8" width="132" height="30"/>
-                                        <state key="normal" title="Play Reset Animate"/>
-                                        <connections>
-                                            <action selector="play:" destination="c67-aJ-Bjm" eventType="touchUpInside" id="NGx-fI-yrU"/>
-                                            <action selector="reset:" destination="c67-aJ-Bjm" eventType="touchUpInside" id="rIB-t6-Kae"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="seU-RL-C2S" firstAttribute="leading" secondItem="OJr-YN-cGo" secondAttribute="leading" constant="8" id="3cO-82-aeA"/>
-                                    <constraint firstAttribute="bottom" secondItem="seU-RL-C2S" secondAttribute="bottom" constant="8" id="4aT-hg-5ar"/>
-                                    <constraint firstItem="7VS-MB-YEo" firstAttribute="leading" secondItem="seU-RL-C2S" secondAttribute="trailing" constant="8" id="SYl-fo-v9O"/>
-                                    <constraint firstItem="seU-RL-C2S" firstAttribute="top" secondItem="OJr-YN-cGo" secondAttribute="top" constant="8" id="m43-VG-hMF"/>
-                                    <constraint firstItem="7VS-MB-YEo" firstAttribute="centerY" secondItem="seU-RL-C2S" secondAttribute="centerY" id="w5f-OA-cmR"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gi4-tz-0T3" customClass="GRoundProgressBar">
-                                <rect key="frame" x="55" y="64" width="490" height="490"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="gi4-tz-0T3" secondAttribute="height" multiplier="1:1" id="MAj-Cw-FFv"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
-                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
-                                        <color key="value" red="0.98039215690000003" green="0.63529411759999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="progressWidth">
-                                        <real key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="speed">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeStart">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeEnd">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="gi4-tz-0T3" firstAttribute="centerX" secondItem="dB2-9g-HB1" secondAttribute="centerX" id="2m0-Uf-GzB"/>
-                            <constraint firstItem="OJr-YN-cGo" firstAttribute="leading" secondItem="dB2-9g-HB1" secondAttribute="leadingMargin" constant="-20" id="7ZC-97-dqT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gi4-tz-0T3" secondAttribute="trailing" constant="-20" id="AWg-te-exx"/>
-                            <constraint firstItem="OJr-YN-cGo" firstAttribute="top" secondItem="gi4-tz-0T3" secondAttribute="bottom" id="JeL-zJ-QTb"/>
-                            <constraint firstItem="0Jm-jA-l7c" firstAttribute="top" secondItem="OJr-YN-cGo" secondAttribute="bottom" id="dHL-g5-2Cm"/>
-                            <constraint firstItem="gi4-tz-0T3" firstAttribute="top" secondItem="FgU-lF-uuP" secondAttribute="bottom" id="jBT-BW-MGn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OJr-YN-cGo" secondAttribute="trailing" constant="-20" id="mcn-Oi-hRd"/>
-                            <constraint firstItem="gi4-tz-0T3" firstAttribute="leading" secondItem="dB2-9g-HB1" secondAttribute="leadingMargin" constant="-20" id="tjh-bt-xiV"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="AWg-te-exx"/>
-                                <exclude reference="tjh-bt-xiV"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <connections>
-                        <outlet property="roundProgressBar" destination="gi4-tz-0T3" id="E14-Kx-uLG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hDu-cT-Ty0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2081" y="344"/>
         </scene>
         <!--SegueTest1-->
         <scene sceneID="J8B-kS-d7X">
@@ -342,17 +228,15 @@
                                     <constraint firstAttribute="height" constant="100" id="Px5-iA-U1h"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baj-Rr-3qq" customClass="GRoundView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baj-Rr-3qq" customClass="GVectorView">
                                 <rect key="frame" x="82" y="64" width="436" height="436"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="baj-Rr-3qq" secondAttribute="height" id="yDD-c3-hTB"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="drawDelegate" destination="QY1-kQ-r51" id="Ayt-z0-7s9"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -367,6 +251,13 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dlw-7Q-udv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="QY1-kQ-r51" customClass="GRoundView">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                            <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="2873" y="344"/>
         </scene>

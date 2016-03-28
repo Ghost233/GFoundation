@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
+#import "GVectorView.h"
 
-@interface GRoundRectangleView : UIView
+@interface GRoundRectangleView : NSObject<GVectorObject>
 
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;
 @property (nonatomic, strong) IBInspectable UIColor* color;
 
-- (void)drawCustomView:(CGRect)rect;
+- (void)customDrawRect:(CGRect)rect;
 
 @end

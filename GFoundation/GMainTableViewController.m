@@ -36,7 +36,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 6;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -45,26 +45,22 @@
     switch (indexPath.row)
     {
         case 0:
-            cell.textLabel.text = @"GRoundProgressBar";
-            break;
-            
-        case 1:
             cell.textLabel.text = @"GRoundView";
             break;
             
-        case 2:
+        case 1:
             cell.textLabel.text = @"GRoundBoxView";
             break;
             
-        case 3:
+        case 2:
             cell.textLabel.text = @"GRoundRectangleBoxView";
             break;
             
-        case 4:
+        case 3:
             cell.textLabel.text = @"GRoundRectangleView";
             break;
             
-        case 5:
+        case 4:
             cell.textLabel.text = @"SegueTest1";
             break;
             
@@ -81,26 +77,22 @@
     switch (indexPath.row)
     {
         case 0:
-            tempIdentifier = @"GRoundProgressBarCellIdentifier";
-            break;
-            
-        case 1:
             tempIdentifier = @"GRoundViewCellIdentifier";
             break;
             
-        case 2:
+        case 1:
             tempIdentifier = @"GRoundBoxViewCellIdentifier";
             break;
             
-        case 3:
+        case 2:
             tempIdentifier = @"GRoundRectangleBoxViewCellIdentifier";
             break;
             
-        case 4:
+        case 3:
             tempIdentifier = @"GRoundRectangleViewCellIdentifier";
             break;
             
-        case 5:
+        case 4:
             tempIdentifier = @"SegueTestIdentifier";
             break;
             

@@ -1,16 +1,13 @@
+//
+//  GUIFramework+Storyboard.h
+//  GUIFramework
+//
+//  Created by Ghost on 16/3/26.
+//  Copyright © 2016年 Ghost. All rights reserved.
+//
+
 #import "GUIFramework.h"
+
 IB_DESIGNABLE
-@interface GRoundBoxView (Storyboard)
-@end
-IB_DESIGNABLE
-@interface GRoundProgressBar (Storyboard)
-@end
-IB_DESIGNABLE
-@interface GRoundRectangleBoxView (Storyboard)
-@end
-IB_DESIGNABLE
-@interface GRoundRectangleView (Storyboard)
-@end
-IB_DESIGNABLE
-@interface GRoundView (Storyboard)
+@interface GVectorView (Storyboard)
 @end

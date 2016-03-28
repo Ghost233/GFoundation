@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
+#import "GVectorView.h"
 
-@interface GRoundView : UIView
+@interface GRoundView : NSObject<GVectorObject>
 
 @property (nonatomic, strong) IBInspectable UIColor* color;
 
-- (void)drawCustomView:(CGRect)rect;
+- (void)customDrawRect:(CGRect)rect;
 
 @end

@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#import "GVectorView.h"
+
 #import "GRoundBoxView.h"
-#import "GRoundProgressBar.h"
 #import "GRoundRectangleBoxView.h"
 #import "GRoundRectangleView.h"
 #import "GRoundView.h"

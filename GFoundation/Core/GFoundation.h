@@ -21,7 +21,6 @@
 #import <GFoundation/GUIQuickStoryboardFramework.h>
 #import <GFoundation/GUIFramework.h>
 #import <NSLogger/LoggerClient.h>
-#import "GUIFramework.h"
 
 #define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
 

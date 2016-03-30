@@ -6,6 +6,8 @@
 
 @end
 
+IB_DESIGNABLE
+
 @interface GDrawVectorView : UIView
 
 @property (nonatomic, weak) IBOutlet id<GDrawVectorObject> drawDelegate;

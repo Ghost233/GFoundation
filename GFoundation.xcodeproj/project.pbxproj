@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA26FBD2D9A67C63D5689BF4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B4D7B5D2D15E852CF8F51C /* Pods.framework */; };
+		E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6541E1E1CAC023F00409070 /* GVectorView.m */; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
 		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
 		E683B9D819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
@@ -78,6 +79,8 @@
 		E631EF491CA134C500A4568F /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
 		E631EF4A1CA134C500A4568F /* PopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSegue.h; sourceTree = "<group>"; };
 		E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToThisVCSegue.h; sourceTree = "<group>"; };
+		E6541DC31CABE0B400409070 /* GVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVectorView.h; sourceTree = "<group>"; };
+		E6541E1E1CAC023F00409070 /* GVectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVectorView.m; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -267,7 +270,9 @@
 		E6A2914A1C9C3DE30021D3B3 /* GUIFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E6541E1E1CAC023F00409070 /* GVectorView.m */,
 				E62A44251CAB93F100820BE6 /* GDrawVectorView.h */,
+				E6541DC31CABE0B400409070 /* GVectorView.h */,
 				E62A44261CAB93F100820BE6 /* GRoundBoxVector.h */,
 				E62A44271CAB93F100820BE6 /* GRoundBoxVectorView.h */,
 				E62A44281CAB93F100820BE6 /* GRoundRectangleBoxVector.h */,
@@ -522,6 +527,7 @@
 				E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */,
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
 				E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */,
+				E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
 				E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */,
 			);

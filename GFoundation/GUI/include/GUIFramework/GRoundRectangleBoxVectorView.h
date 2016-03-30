@@ -5,6 +5,8 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
+
 @interface GRoundRectangleBoxVectorView : UIView
 
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;

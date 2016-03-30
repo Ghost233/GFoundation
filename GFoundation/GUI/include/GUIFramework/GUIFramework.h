@@ -8,13 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GVectorView.h"
+#import "GRoundBoxVector.h"
+#import "GRoundRectangleBoxVector.h"
+#import "GRoundRectangleVector.h"
+#import "GRoundVector.h"
 
-#import "GRoundBoxView.h"
-#import "GRoundRectangleBoxView.h"
-#import "GRoundRectangleView.h"
-#import "GRoundView.h"
-
-@interface GUIFramework : NSObject
-
-@end
+#import "GDrawVectorView.h"

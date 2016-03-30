@@ -37,7 +37,6 @@
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
-		E6E96BC21CA6929C0057B2A2 /* GUIFramework+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E96BC11CA6929C0057B2A2 /* GUIFramework+Storyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +66,15 @@
 		20F6C604924FDEB8F18F0205 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		82B4D7B5D2D15E852CF8F51C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F3CE8F6C3D2703BB800758 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E62A44251CAB93F100820BE6 /* GDrawVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDrawVectorView.h; sourceTree = "<group>"; };
+		E62A44261CAB93F100820BE6 /* GRoundBoxVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxVector.h; sourceTree = "<group>"; };
+		E62A44271CAB93F100820BE6 /* GRoundBoxVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxVectorView.h; sourceTree = "<group>"; };
+		E62A44281CAB93F100820BE6 /* GRoundRectangleBoxVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxVector.h; sourceTree = "<group>"; };
+		E62A44291CAB93F100820BE6 /* GRoundRectangleBoxVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxVectorView.h; sourceTree = "<group>"; };
+		E62A442A1CAB93F100820BE6 /* GRoundRectangleVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleVector.h; sourceTree = "<group>"; };
+		E62A442B1CAB93F100820BE6 /* GRoundRectangleVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleVectorView.h; sourceTree = "<group>"; };
+		E62A442C1CAB93F100820BE6 /* GRoundVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundVector.h; sourceTree = "<group>"; };
+		E62A442D1CAB93F100820BE6 /* GRoundVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundVectorView.h; sourceTree = "<group>"; };
 		E631EF491CA134C500A4568F /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
 		E631EF4A1CA134C500A4568F /* PopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSegue.h; sourceTree = "<group>"; };
 		E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToThisVCSegue.h; sourceTree = "<group>"; };
@@ -86,10 +94,6 @@
 		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
-		E6A2914B1C9C3DE30021D3B3 /* GRoundBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxView.h; sourceTree = "<group>"; };
-		E6A2914D1C9C3DE30021D3B3 /* GRoundRectangleBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxView.h; sourceTree = "<group>"; };
-		E6A2914E1C9C3DE30021D3B3 /* GRoundRectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleView.h; sourceTree = "<group>"; };
-		E6A2914F1C9C3DE30021D3B3 /* GRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundView.h; sourceTree = "<group>"; };
 		E6A291521C9C3DE30021D3B3 /* GUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFramework.h; sourceTree = "<group>"; };
 		E6A6CAFE1C9BF3940051F422 /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
 		E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
@@ -125,9 +129,6 @@
 		E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainTableViewController.m; sourceTree = "<group>"; };
 		E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIQuickStoryboardFramework.h; sourceTree = "<group>"; };
 		E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QuickStoryboard.h"; sourceTree = "<group>"; };
-		E6E96BBA1CA68FE60057B2A2 /* GVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVectorView.h; sourceTree = "<group>"; };
-		E6E96BC01CA6929C0057B2A2 /* GUIFramework+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GUIFramework+Storyboard.h"; sourceTree = "<group>"; };
-		E6E96BC11CA6929C0057B2A2 /* GUIFramework+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GUIFramework+Storyboard.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,13 +267,15 @@
 		E6A2914A1C9C3DE30021D3B3 /* GUIFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E6E96BC01CA6929C0057B2A2 /* GUIFramework+Storyboard.h */,
-				E6E96BC11CA6929C0057B2A2 /* GUIFramework+Storyboard.m */,
-				E6E96BBA1CA68FE60057B2A2 /* GVectorView.h */,
-				E6A2914B1C9C3DE30021D3B3 /* GRoundBoxView.h */,
-				E6A2914D1C9C3DE30021D3B3 /* GRoundRectangleBoxView.h */,
-				E6A2914E1C9C3DE30021D3B3 /* GRoundRectangleView.h */,
-				E6A2914F1C9C3DE30021D3B3 /* GRoundView.h */,
+				E62A44251CAB93F100820BE6 /* GDrawVectorView.h */,
+				E62A44261CAB93F100820BE6 /* GRoundBoxVector.h */,
+				E62A44271CAB93F100820BE6 /* GRoundBoxVectorView.h */,
+				E62A44281CAB93F100820BE6 /* GRoundRectangleBoxVector.h */,
+				E62A44291CAB93F100820BE6 /* GRoundRectangleBoxVectorView.h */,
+				E62A442A1CAB93F100820BE6 /* GRoundRectangleVector.h */,
+				E62A442B1CAB93F100820BE6 /* GRoundRectangleVectorView.h */,
+				E62A442C1CAB93F100820BE6 /* GRoundVector.h */,
+				E62A442D1CAB93F100820BE6 /* GRoundVectorView.h */,
 				E6A291521C9C3DE30021D3B3 /* GUIFramework.h */,
 			);
 			path = GUIFramework;
@@ -517,7 +520,6 @@
 				E6B6F3791CA267DB004CB658 /* GSegueTest2.m in Sources */,
 				E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */,
 				E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */,
-				E6E96BC21CA6929C0057B2A2 /* GUIFramework+Storyboard.m in Sources */,
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
 				E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,

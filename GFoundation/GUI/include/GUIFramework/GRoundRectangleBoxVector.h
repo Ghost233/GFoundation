@@ -2,15 +2,12 @@
 //  GRoundRectangleBoxView.h
 //  Golien
 //
-//  Created by Ghost on 15/9/5.
-//  Copyright (c) 2015年 Ghost. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
-#import "GVectorView.h"
+#import "GDrawVectorView.h"
 
-@interface GRoundRectangleBoxView : NSObject<GVectorObject>
+@interface GRoundRectangleBoxVector : NSObject<GDrawVectorObject>
 
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;
 @property (nonatomic, readwrite) IBInspectable CGFloat strokeWidth;

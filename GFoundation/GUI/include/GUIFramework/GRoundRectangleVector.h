@@ -2,15 +2,12 @@
 //  GRoundRectangleView.h
 //  Golien
 //
-//  Created by Ghost on 15/10/7.
-//  Copyright © 2015年 Ghost. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
-#import "GVectorView.h"
+#import "GDrawVectorView.h"
 
-@interface GRoundRectangleView : NSObject<GVectorObject>
+@interface GRoundRectangleVector : NSObject<GDrawVectorObject>
 
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;
 @property (nonatomic, strong) IBInspectable UIColor* color;

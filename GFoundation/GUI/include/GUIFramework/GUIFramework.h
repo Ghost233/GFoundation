@@ -14,3 +14,4 @@
 #import "GRoundVector.h"
 
 #import "GDrawVectorView.h"
+#import "GVectorView.h"

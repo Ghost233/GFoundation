@@ -1,10 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@protocol GDrawVectorObject <NSObject>
-
-- (void)customDrawRect:(CGRect)rect;
-
-@end
+#import "GDrawVectorObject.h"
 
 IB_DESIGNABLE
 

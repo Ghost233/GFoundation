@@ -5,9 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GDrawVectorObject.h"
-
-@interface GRoundBoxVector : NSObject<GDrawVectorObject>
+@interface GRoundBoxVector : NSObject
 
 @property (nonatomic, readwrite) IBInspectable CGFloat strokeWidth;
 @property (nonatomic, strong) IBInspectable UIColor* color;

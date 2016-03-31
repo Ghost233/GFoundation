@@ -5,9 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GDrawVectorObject.h"
-
-@interface GRoundVector : NSObject<GDrawVectorObject>
+@interface GRoundVector : NSObject
 
 @property (nonatomic, strong) IBInspectable UIColor* color;
 

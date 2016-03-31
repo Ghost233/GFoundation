@@ -5,9 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GDrawVectorObject.h"
-
-@interface GRoundRectangleVector : NSObject<GDrawVectorObject>
+@interface GRoundRectangleVector : NSObject
 
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;
 @property (nonatomic, strong) IBInspectable UIColor* color;

@@ -81,7 +81,6 @@
 		E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToThisVCSegue.h; sourceTree = "<group>"; };
 		E6541DC31CABE0B400409070 /* GVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVectorView.h; sourceTree = "<group>"; };
 		E6541E1E1CAC023F00409070 /* GVectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVectorView.m; sourceTree = "<group>"; };
-		E665A4FA1CACFCB70021967B /* GDrawVectorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDrawVectorObject.h; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9D319B6E9EE00BADEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -271,7 +270,6 @@
 		E6A2914A1C9C3DE30021D3B3 /* GUIFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E665A4FA1CACFCB70021967B /* GDrawVectorObject.h */,
 				E6541E1E1CAC023F00409070 /* GVectorView.m */,
 				E62A44251CAB93F100820BE6 /* GDrawVectorView.h */,
 				E6541DC31CABE0B400409070 /* GVectorView.h */,

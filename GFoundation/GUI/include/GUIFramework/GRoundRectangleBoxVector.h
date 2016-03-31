@@ -5,9 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GDrawVectorObject.h"
-
-@interface GRoundRectangleBoxVector : NSObject<GDrawVectorObject>
+@interface GRoundRectangleBoxVector : NSObject
 
 @property (nonatomic, readwrite) IBInspectable CGFloat radius;
 @property (nonatomic, readwrite) IBInspectable CGFloat strokeWidth;

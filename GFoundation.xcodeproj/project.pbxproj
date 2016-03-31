@@ -67,7 +67,6 @@
 		20F6C604924FDEB8F18F0205 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		82B4D7B5D2D15E852CF8F51C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F3CE8F6C3D2703BB800758 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		E62A44251CAB93F100820BE6 /* GDrawVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDrawVectorView.h; sourceTree = "<group>"; };
 		E62A44261CAB93F100820BE6 /* GRoundBoxVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxVector.h; sourceTree = "<group>"; };
 		E62A44271CAB93F100820BE6 /* GRoundBoxVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundBoxVectorView.h; sourceTree = "<group>"; };
 		E62A44281CAB93F100820BE6 /* GRoundRectangleBoxVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRoundRectangleBoxVector.h; sourceTree = "<group>"; };
@@ -271,7 +270,6 @@
 			isa = PBXGroup;
 			children = (
 				E6541E1E1CAC023F00409070 /* GVectorView.m */,
-				E62A44251CAB93F100820BE6 /* GDrawVectorView.h */,
 				E6541DC31CABE0B400409070 /* GVectorView.h */,
 				E62A44261CAB93F100820BE6 /* GRoundBoxVector.h */,
 				E62A44271CAB93F100820BE6 /* GRoundBoxVectorView.h */,

@@ -5,7 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "GDrawVectorView.h"
+#import "GDrawVectorObject.h"
 
 @interface GRoundBoxVector : NSObject<GDrawVectorObject>
 

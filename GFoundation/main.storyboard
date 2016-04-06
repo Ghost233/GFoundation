@@ -163,7 +163,7 @@
                                 <rect key="frame" x="283" y="361" width="35" height="30"/>
                                 <state key="normal" title="Push"/>
                                 <connections>
-                                    <segue destination="FUU-tb-oPe" kind="show" id="hiR-pw-Buk"/>
+                                    <segue destination="FUU-tb-oPe" kind="show" identifier="LoginSuccess" customClass="GRoundSpreadSegue" id="Ejo-ri-h90"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-F1-3RB">

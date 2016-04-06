@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GRoundSpreadSegue : UIStoryboardSegue <UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning>
-                                                
-@property (nonatomic, readwrite) IBInspectable CGPoint startCenterPoint;
-@property (nonatomic, readwrite) IBInspectable CGFloat startRadius;
-@property (nonatomic, readwrite) IBInspectable CGFloat duration;
+@interface GRoundSpreadSegue : UIStoryboardSegue <UIViewControllerTransitioningDelegate>
+
+@property (nonatomic, strong) IBOutlet id<UIViewControllerAnimatedTransitioning> delegate;
 
 @end

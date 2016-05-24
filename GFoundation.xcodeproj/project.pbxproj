@@ -22,6 +22,7 @@
 		E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
 		E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */; };
 		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
+		E69693071CF468DB000007DF /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */; };
 		E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */; };
 		E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */; };
 		E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB031C9BF3940051F422 /* NSDictionaryExtensions.m */; };
@@ -99,6 +100,8 @@
 		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
+		E69693051CF468DB000007DF /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
 		E6A291521C9C3DE30021D3B3 /* GUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFramework.h; sourceTree = "<group>"; };
 		E6A6CAFE1C9BF3940051F422 /* NSArrayExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayExtensions.h; sourceTree = "<group>"; };
 		E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayExtensions.m; sourceTree = "<group>"; };
@@ -323,6 +326,8 @@
 				E6A6CB091C9BF3940051F422 /* NSStringExtensions.m */,
 				E6A6CB0A1C9BF3940051F422 /* UIView+CGRectExtension.h */,
 				E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */,
+				E69693051CF468DB000007DF /* UINavigationBar+BackgroundColor.h */,
+				E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -534,6 +539,7 @@
 				E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */,
 				E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */,
 				E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */,
+				E69693071CF468DB000007DF /* UINavigationBar+BackgroundColor.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
 				E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */,
 			);

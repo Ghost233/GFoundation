@@ -19,6 +19,7 @@
 #import "NSString+MD5.h"
 #import "NSStringExtensions.h"
 #import "UIView+CGRectExtension.h"
+#import "UINavigationBar+BackgroundColor.h"
 
 #define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
 

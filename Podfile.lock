@@ -27,18 +27,6 @@ PODS:
     - NSLogger/Standard (= 1.5.1)
   - NSLogger/Standard (1.5.1)
   - pop (1.0.9)
-  - ReactiveCocoa (4.0.1):
-    - ReactiveCocoa/UI (= 4.0.1)
-    - Result (~> 1.0.2)
-  - ReactiveCocoa/Core (4.0.1):
-    - ReactiveCocoa/no-arc
-    - Result (~> 1.0.2)
-  - ReactiveCocoa/no-arc (4.0.1):
-    - Result (~> 1.0.2)
-  - ReactiveCocoa/UI (4.0.1):
-    - ReactiveCocoa/Core
-    - Result (~> 1.0.2)
-  - Result (1.0.2)
   - UITableView+FDTemplateLayoutCell (1.4)
   - UIView+FDCollapsibleConstraints (1.1)
   - XXNibBridge (2.2.3)
@@ -55,7 +43,6 @@ DEPENDENCIES:
   - Masonry
   - NSLogger
   - pop
-  - ReactiveCocoa
   - UITableView+FDTemplateLayoutCell
   - UIView+FDCollapsibleConstraints
   - XXNibBridge
@@ -70,11 +57,11 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   NSLogger: 5ed223a2436df96244e033be750656dacdeec034
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
-  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
-  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
   XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
   YYKit: fa66d61240458f14562c33c85c91d11131e43261
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 31fb1028d88ebce52d722b288b3edeeaa58452e9
+
+COCOAPODS: 1.0.0

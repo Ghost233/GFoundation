@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.dependency 'FDStackView'
   s.dependency 'XXNibBridge'
   s.dependency 'NSLogger'
+  s.dependency 'MBProgressHUD'
   
   #base
   s.subspec "Core" do |core|

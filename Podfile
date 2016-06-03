@@ -15,5 +15,6 @@ pod 'UIView+FDCollapsibleConstraints'
 pod 'FDStackView'
 pod 'XXNibBridge'
 pod 'NSLogger'
+pod 'MBProgressHUD'
 
 end

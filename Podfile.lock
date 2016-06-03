@@ -23,6 +23,7 @@ PODS:
     - Mantle/extobjc (= 2.0.7)
   - Mantle/extobjc (2.0.7)
   - Masonry (1.0.1)
+  - MBProgressHUD (0.9.2)
   - NSLogger (1.7.0):
     - NSLogger/Standard (= 1.7.0)
   - NSLogger/Standard (1.7.0)
@@ -41,6 +42,7 @@ DEPENDENCIES:
   - FMDB
   - Mantle
   - Masonry
+  - MBProgressHUD
   - NSLogger
   - pop
   - UITableView+FDTemplateLayoutCell
@@ -55,6 +57,7 @@ SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   NSLogger: daa17368272ddf10a0850c218fe49de23b50f2eb
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
@@ -62,6 +65,6 @@ SPEC CHECKSUMS:
   XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
   YYKit: a80c77ab7be226ebe539ef1495dfc25d5766d61e
 
-PODFILE CHECKSUM: 31fb1028d88ebce52d722b288b3edeeaa58452e9
+PODFILE CHECKSUM: 58c312b4455eb34bbab0ac5df72045aa1bd27fe8
 
 COCOAPODS: 1.0.0

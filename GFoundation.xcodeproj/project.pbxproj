@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A43CDBAF38C19EF421099004 /* Pods_GFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625CCDB8AEF68D5BAF297367 /* Pods_GFoundation.framework */; };
 		E626F3CA1CB516FB00DAE117 /* GRoundSpreadSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E626F3C81CB516FB00DAE117 /* GRoundSpreadSegue.m */; };
+		E64FB4F01D13DA6C00F3F8A6 /* GUUIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E64FB4EF1D13DA6C00F3F8A6 /* GUUIDManager.m */; };
 		E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6541E1E1CAC023F00409070 /* GVectorView.m */; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
 		E683B9D619B6E9EE00BADEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D519B6E9EE00BADEAD /* CoreGraphics.framework */; };
@@ -17,11 +18,6 @@
 		E683B9E019B6E9EE00BADEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9DF19B6E9EE00BADEAD /* main.m */; };
 		E683B9E419B6E9EE00BADEAD /* GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */; };
 		E683B9EF19B6E9EE00BADEAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E683B9EE19B6E9EE00BADEAD /* Images.xcassets */; };
-		E683B9F619B6E9EE00BADEAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9F519B6E9EE00BADEAD /* XCTest.framework */; };
-		E683B9F719B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
-		E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D719B6E9EE00BADEAD /* UIKit.framework */; };
-		E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */; };
-		E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */; };
 		E69693071CF468DB000007DF /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */; };
 		E6A6CB121C9BF3940051F422 /* NSArrayExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CAFF1C9BF3940051F422 /* NSArrayExtensions.m */; };
 		E6A6CB131C9BF3940051F422 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A6CB011C9BF3940051F422 /* NSDataExtensions.m */; };
@@ -41,16 +37,6 @@
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E683B9F919B6E9EE00BADEAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E683B9C819B6E9EE00BADEAD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E683B9CF19B6E9EE00BADEAD;
-			remoteInfo = GFoundation;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E64CCDE01C9006650092C699 /* Embed Frameworks */ = {
@@ -82,6 +68,8 @@
 		E631EF491CA134C500A4568F /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
 		E631EF4A1CA134C500A4568F /* PopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSegue.h; sourceTree = "<group>"; };
 		E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToThisVCSegue.h; sourceTree = "<group>"; };
+		E64FB4EE1D13DA6C00F3F8A6 /* GUUIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUUIDManager.h; sourceTree = "<group>"; };
+		E64FB4EF1D13DA6C00F3F8A6 /* GUUIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUUIDManager.m; sourceTree = "<group>"; };
 		E6541DC31CABE0B400409070 /* GVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVectorView.h; sourceTree = "<group>"; };
 		E6541E1E1CAC023F00409070 /* GVectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVectorView.m; sourceTree = "<group>"; };
 		E683B9D019B6E9EE00BADEAD /* GFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,11 +83,7 @@
 		E683B9E219B6E9EE00BADEAD /* GAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAppDelegate.h; sourceTree = "<group>"; };
 		E683B9E319B6E9EE00BADEAD /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
 		E683B9EE19B6E9EE00BADEAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E683B9F519B6E9EE00BADEAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GFoundationTests-Info.plist"; sourceTree = "<group>"; };
-		E683B9FF19B6E9EE00BADEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFoundationTests.m; sourceTree = "<group>"; };
 		E69693051CF468DB000007DF /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
 		E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
 		E6A291521C9C3DE30021D3B3 /* GUIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFramework.h; sourceTree = "<group>"; };
@@ -155,16 +139,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E683B9F119B6E9EE00BADEAD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E683B9F619B6E9EE00BADEAD /* XCTest.framework in Frameworks */,
-				E683B9F819B6E9EE00BADEAD /* UIKit.framework in Frameworks */,
-				E683B9F719B6E9EE00BADEAD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -177,11 +151,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E64FB4ED1D13DA5D00F3F8A6 /* GUUIDManager */ = {
+			isa = PBXGroup;
+			children = (
+				E64FB4EE1D13DA6C00F3F8A6 /* GUUIDManager.h */,
+				E64FB4EF1D13DA6C00F3F8A6 /* GUUIDManager.m */,
+			);
+			path = GUUIDManager;
+			sourceTree = "<group>";
+		};
 		E683B9C719B6E9EE00BADEAD = {
 			isa = PBXGroup;
 			children = (
 				E683B9D919B6E9EE00BADEAD /* GFoundation */,
-				E683B9FB19B6E9EE00BADEAD /* GFoundationTests */,
 				E683B9D219B6E9EE00BADEAD /* Frameworks */,
 				E683B9D119B6E9EE00BADEAD /* Products */,
 				2751B75E87BE099F50879403 /* Pods */,
@@ -192,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				E683B9D019B6E9EE00BADEAD /* GFoundation.app */,
-				E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,24 +230,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E683B9FB19B6E9EE00BADEAD /* GFoundationTests */ = {
-			isa = PBXGroup;
-			children = (
-				E683BA0119B6E9EE00BADEAD /* GFoundationTests.m */,
-				E683B9FC19B6E9EE00BADEAD /* Supporting Files */,
-			);
-			path = GFoundationTests;
-			sourceTree = "<group>";
-		};
-		E683B9FC19B6E9EE00BADEAD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E683B9FD19B6E9EE00BADEAD /* GFoundationTests-Info.plist */,
-				E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		E6A291491C9C3DE30021D3B3 /* include */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +269,7 @@
 			children = (
 				E6A6CAFD1C9BF3940051F422 /* Extensions */,
 				E6A6CB0C1C9BF3940051F422 /* GFoundation.h */,
+				E64FB4ED1D13DA5D00F3F8A6 /* GUUIDManager */,
 				E6A6CB0D1C9BF3940051F422 /* GTMBase64 */,
 			);
 			path = Core;
@@ -399,24 +363,6 @@
 			productReference = E683B9D019B6E9EE00BADEAD /* GFoundation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E683B9F319B6E9EE00BADEAD /* GFoundationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E683BA0819B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundationTests" */;
-			buildPhases = (
-				E683B9F019B6E9EE00BADEAD /* Sources */,
-				E683B9F119B6E9EE00BADEAD /* Frameworks */,
-				E683B9F219B6E9EE00BADEAD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E683B9FA19B6E9EE00BADEAD /* PBXTargetDependency */,
-			);
-			name = GFoundationTests;
-			productName = GFoundationTests;
-			productReference = E683B9F419B6E9EE00BADEAD /* GFoundationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -426,11 +372,6 @@
 				CLASSPREFIX = G;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Ghost;
-				TargetAttributes = {
-					E683B9F319B6E9EE00BADEAD = {
-						TestTargetID = E683B9CF19B6E9EE00BADEAD;
-					};
-				};
 			};
 			buildConfigurationList = E683B9CB19B6E9EE00BADEAD /* Build configuration list for PBXProject "GFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -446,7 +387,6 @@
 			projectRoot = "";
 			targets = (
 				E683B9CF19B6E9EE00BADEAD /* GFoundation */,
-				E683B9F319B6E9EE00BADEAD /* GFoundationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -460,14 +400,6 @@
 				E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */,
 				E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */,
 				E683B9DE19B6E9EE00BADEAD /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E683B9F219B6E9EE00BADEAD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E683BA0019B6E9EE00BADEAD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,42 +474,19 @@
 				E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */,
 				E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */,
 				E69693071CF468DB000007DF /* UINavigationBar+BackgroundColor.m in Sources */,
+				E64FB4F01D13DA6C00F3F8A6 /* GUUIDManager.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
 				E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E683B9F019B6E9EE00BADEAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E683BA0219B6E9EE00BADEAD /* GFoundationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E683B9FA19B6E9EE00BADEAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E683B9CF19B6E9EE00BADEAD /* GFoundation */;
-			targetProxy = E683B9F919B6E9EE00BADEAD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E683B9DC19B6E9EE00BADEAD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E683B9DD19B6E9EE00BADEAD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E683B9FE19B6E9EE00BADEAD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E683B9FF19B6E9EE00BADEAD /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -704,48 +613,6 @@
 			};
 			name = Release;
 		};
-		E683BA0919B6E9EE00BADEAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GFoundation.app/GFoundation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "GFoundationTests/GFoundationTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		E683BA0A19B6E9EE00BADEAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GFoundation.app/GFoundation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
-				INFOPLIST_FILE = "GFoundationTests/GFoundationTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ghost233.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -763,15 +630,6 @@
 			buildConfigurations = (
 				E683BA0619B6E9EE00BADEAD /* Debug */,
 				E683BA0719B6E9EE00BADEAD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E683BA0819B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E683BA0919B6E9EE00BADEAD /* Debug */,
-				E683BA0A19B6E9EE00BADEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

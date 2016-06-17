@@ -28,6 +28,7 @@ PODS:
     - NSLogger/Standard (= 1.7.0)
   - NSLogger/Standard (1.7.0)
   - pop (1.0.9)
+  - SSKeychain (1.4.0)
   - UITableView+FDTemplateLayoutCell (1.4)
   - UIView+FDCollapsibleConstraints (1.1)
   - XXNibBridge (2.2.3)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - NSLogger
   - pop
+  - SSKeychain
   - UITableView+FDTemplateLayoutCell
   - UIView+FDCollapsibleConstraints
   - XXNibBridge
@@ -60,11 +62,12 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   NSLogger: daa17368272ddf10a0850c218fe49de23b50f2eb
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
   XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
   YYKit: a80c77ab7be226ebe539ef1495dfc25d5766d61e
 
-PODFILE CHECKSUM: 58c312b4455eb34bbab0ac5df72045aa1bd27fe8
+PODFILE CHECKSUM: d31141856299b408b2ca734f286bfbe34e6b9c7b
 
 COCOAPODS: 1.0.0

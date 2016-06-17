@@ -16,5 +16,6 @@ pod 'FDStackView'
 pod 'XXNibBridge'
 pod 'NSLogger'
 pod 'MBProgressHUD'
+pod 'SSKeychain'
 
 end

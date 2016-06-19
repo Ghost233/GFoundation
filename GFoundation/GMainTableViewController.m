@@ -8,6 +8,8 @@
 
 #import "GMainTableViewController.h"
 
+#import "GFoundation.h"
+
 @interface GMainTableViewController ()
 
 @end

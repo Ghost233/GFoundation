@@ -36,6 +36,7 @@
 		E6C5CD9E1BE33AA9001F67FA /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CD9D1BE33AA9001F67FA /* main.storyboard */; };
 		E6C5CDA91BE33D3D001F67FA /* Launcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C5CDA81BE33D3D001F67FA /* Launcher.xib */; };
 		E6C5CDAF1BE340B9001F67FA /* GMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */; };
+		E6EB239A1D278D860016FEBA /* NSObject+DoNothing.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EB23991D278D860016FEBA /* NSObject+DoNothing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -122,6 +123,8 @@
 		E6C5CDAE1BE340B9001F67FA /* GMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainTableViewController.m; sourceTree = "<group>"; };
 		E6D7F7CB1C9D542D007AEBE1 /* GUIQuickStoryboardFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIQuickStoryboardFramework.h; sourceTree = "<group>"; };
 		E6D7F7CD1C9D542D007AEBE1 /* UIViewController+QuickStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QuickStoryboard.h"; sourceTree = "<group>"; };
+		E6EB23981D278D860016FEBA /* NSObject+DoNothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DoNothing.h"; sourceTree = "<group>"; };
+		E6EB23991D278D860016FEBA /* NSObject+DoNothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DoNothing.m"; sourceTree = "<group>"; };
 		F53CC29F3A6974A5633D7C60 /* Pods-GFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFoundation/Pods-GFoundation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -294,6 +297,8 @@
 				E6A6CB0B1C9BF3940051F422 /* UIView+CGRectExtension.m */,
 				E69693051CF468DB000007DF /* UINavigationBar+BackgroundColor.h */,
 				E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */,
+				E6EB23981D278D860016FEBA /* NSObject+DoNothing.h */,
+				E6EB23991D278D860016FEBA /* NSObject+DoNothing.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -466,6 +471,7 @@
 				E6A6CB171C9BF3940051F422 /* NSStringExtensions.m in Sources */,
 				E6A6CB181C9BF3940051F422 /* UIView+CGRectExtension.m in Sources */,
 				E6B6F37C1CA267E6004CB658 /* GSegueTest1.m in Sources */,
+				E6EB239A1D278D860016FEBA /* NSObject+DoNothing.m in Sources */,
 				E626F3CA1CB516FB00DAE117 /* GRoundSpreadSegue.m in Sources */,
 				E6B6F3791CA267DB004CB658 /* GSegueTest2.m in Sources */,
 				E6A6CB191C9BF3940051F422 /* GTMBase64.m in Sources */,

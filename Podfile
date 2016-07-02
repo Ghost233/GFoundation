@@ -14,7 +14,6 @@ pod 'UITableView+FDTemplateLayoutCell'
 pod 'UIView+FDCollapsibleConstraints'
 pod 'FDStackView'
 pod 'XXNibBridge'
-pod 'NSLogger'
 pod 'MBProgressHUD'
 pod 'SSKeychain'
 

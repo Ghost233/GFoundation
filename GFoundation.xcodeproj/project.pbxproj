@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A43CDBAF38C19EF421099004 /* Pods_GFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625CCDB8AEF68D5BAF297367 /* Pods_GFoundation.framework */; };
 		E626F3CA1CB516FB00DAE117 /* GRoundSpreadSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E626F3C81CB516FB00DAE117 /* GRoundSpreadSegue.m */; };
+		E6474B521D16750E00FCD8EA /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E6474B511D16750E00FCD8EA /* UIImage+ImageEffects.m */; };
 		E64FB4F01D13DA6C00F3F8A6 /* GUUIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E64FB4EF1D13DA6C00F3F8A6 /* GUUIDManager.m */; };
 		E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6541E1E1CAC023F00409070 /* GVectorView.m */; };
 		E683B9D419B6E9EE00BADEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E683B9D319B6E9EE00BADEAD /* Foundation.framework */; };
@@ -69,6 +70,8 @@
 		E631EF491CA134C500A4568F /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
 		E631EF4A1CA134C500A4568F /* PopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSegue.h; sourceTree = "<group>"; };
 		E631EF4B1CA134C500A4568F /* PopToThisVCSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopToThisVCSegue.h; sourceTree = "<group>"; };
+		E6474B501D16750E00FCD8EA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E6474B511D16750E00FCD8EA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		E64FB4EE1D13DA6C00F3F8A6 /* GUUIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUUIDManager.h; sourceTree = "<group>"; };
 		E64FB4EF1D13DA6C00F3F8A6 /* GUUIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUUIDManager.m; sourceTree = "<group>"; };
 		E6541DC31CABE0B400409070 /* GVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVectorView.h; sourceTree = "<group>"; };
@@ -299,6 +302,8 @@
 				E69693061CF468DB000007DF /* UINavigationBar+BackgroundColor.m */,
 				E6EB23981D278D860016FEBA /* NSObject+DoNothing.h */,
 				E6EB23991D278D860016FEBA /* NSObject+DoNothing.m */,
+				E6474B501D16750E00FCD8EA /* UIImage+ImageEffects.h */,
+				E6474B511D16750E00FCD8EA /* UIImage+ImageEffects.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -351,13 +356,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E683BA0519B6E9EE00BADEAD /* Build configuration list for PBXNativeTarget "GFoundation" */;
 			buildPhases = (
-				5DFACB70F0239DEB4EE20609 /* 📦 Check Pods Manifest.lock */,
+				5DFACB70F0239DEB4EE20609 /* [CP] Check Pods Manifest.lock */,
 				E683B9CC19B6E9EE00BADEAD /* Sources */,
 				E683B9CD19B6E9EE00BADEAD /* Frameworks */,
 				E683B9CE19B6E9EE00BADEAD /* Resources */,
 				E64CCDE01C9006650092C699 /* Embed Frameworks */,
-				4FF7B337F391386C1ACF4912 /* 📦 Embed Pods Frameworks */,
-				AA96E4FA38737F5C4D436B14 /* 📦 Copy Pods Resources */,
+				4FF7B337F391386C1ACF4912 /* [CP] Embed Pods Frameworks */,
+				AA96E4FA38737F5C4D436B14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -411,14 +416,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4FF7B337F391386C1ACF4912 /* 📦 Embed Pods Frameworks */ = {
+		4FF7B337F391386C1ACF4912 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,14 +431,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFoundation/Pods-GFoundation-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DFACB70F0239DEB4EE20609 /* 📦 Check Pods Manifest.lock */ = {
+		5DFACB70F0239DEB4EE20609 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,14 +446,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AA96E4FA38737F5C4D436B14 /* 📦 Copy Pods Resources */ = {
+		AA96E4FA38737F5C4D436B14 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +485,7 @@
 				E6B6F37F1CA267ED004CB658 /* GSegueTest3.m in Sources */,
 				E6541E1F1CAC023F00409070 /* GVectorView.m in Sources */,
 				E69693071CF468DB000007DF /* UINavigationBar+BackgroundColor.m in Sources */,
+				E6474B521D16750E00FCD8EA /* UIImage+ImageEffects.m in Sources */,
 				E64FB4F01D13DA6C00F3F8A6 /* GUUIDManager.m in Sources */,
 				E683B9E019B6E9EE00BADEAD /* main.m in Sources */,
 				E6A6CB141C9BF3940051F422 /* NSDictionaryExtensions.m in Sources */,

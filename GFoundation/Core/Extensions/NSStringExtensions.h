@@ -51,4 +51,7 @@
 - (NSString *)hexString;
 + (NSString *)hexStringFromString:(NSString *)string;
 
++ (NSString*)randomStringWithLength:(int)length;
++ (NSString*)randomHexStringWithLength:(int)length;
+
 @end

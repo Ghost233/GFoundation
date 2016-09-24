@@ -112,4 +112,33 @@
     return hexStr;
 }
 
++ (NSString*)randomHexStringWithLength:(int)length
+{
+    NSMutableString* tempString = [@"" mutableCopy];
+    
+    for (int i = 0 ; i < length ; ++i)
+    {
+        int value = arc4random() % 16;
+        if (value < 10) [tempString appendFormat:@"%d", value];
+        else [tempString appendFormat:@"%c", 'A' + value];
+    }
+    
+    return tempString;
+}
+
++ (NSString*)randomStringWithLength:(int)length
+{
+    NSMutableString* tempString = [@"" mutableCopy];
+    
+    for (int i = 0 ; i < length ; ++i)
+    {
+        int value = arc4random() % 62;
+        if (value < 10) [tempString appendFormat:@"%d", value];
+        else if (value < 36) [tempString appendFormat:@"%c", 'A' + value - 10];
+        else [tempString appendFormat:@"%c", 'a' + value - 36];
+    }
+    
+    return tempString;
+}
+
 @end

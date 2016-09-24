@@ -382,6 +382,11 @@
 				CLASSPREFIX = G;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Ghost;
+				TargetAttributes = {
+					E683B9CF19B6E9EE00BADEAD = {
+						DevelopmentTeam = D62JMM68M4;
+					};
+				};
 			};
 			buildConfigurationList = E683B9CB19B6E9EE00BADEAD /* Build configuration list for PBXProject "GFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -585,6 +590,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D62JMM68M4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";
@@ -608,6 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = D62JMM68M4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFoundation/GFoundation-Prefix.pch";

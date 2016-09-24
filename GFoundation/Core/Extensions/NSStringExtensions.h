@@ -54,4 +54,7 @@
 + (NSString*)randomStringWithLength:(int)length;
 + (NSString*)randomHexStringWithLength:(int)length;
 
++ (NSDictionary*)dictionaryWithJsonString:(NSString*)jsonString;
+- (NSDictionary*)dictionaryWithJsonString;
+
 @end

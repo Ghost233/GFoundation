@@ -141,4 +141,14 @@
     return tempString;
 }
 
++ (NSDictionary*)dictionaryWithJsonString:(NSString*)jsonString
+{
+    NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
+    NSError *err;
+    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
+                                                        options:NSJSONReadingMutableContainers
+                                                          error:&err];
+    return dic;
+}
+
 @end

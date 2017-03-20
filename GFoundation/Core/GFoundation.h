@@ -26,7 +26,7 @@
 #define ZAssert(condition, ...) do { if (!(condition)) { ALog(__VA_ARGS__); }} while(0)
 
 #define WeakSelf(ws)  __weak __typeof(&*self)ws = self;
-#define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
-#define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
+#define getScreenWidth() ([UIScreen mainScreen].bounds.size.width)
+#define getScreenHeight() ([UIScreen mainScreen].bounds.size.height)
 
 #endif

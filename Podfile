@@ -1,4 +1,7 @@
 use_frameworks!
+
+inhibit_all_warnings!
+
 platform :ios, '8.0'
 
 target "GFoundation" do
@@ -13,7 +16,6 @@ pod 'FDFullscreenPopGesture'
 pod 'UITableView+FDTemplateLayoutCell'
 pod 'UIView+FDCollapsibleConstraints'
 pod 'FDStackView'
-pod 'XXNibBridge'
 pod 'MBProgressHUD'
 pod 'SSKeychain'
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GFoundation'
-  s.version      = '0.0.46'
+  s.version      = '0.0.47'
   s.summary      = 'A short description of GFoundation.'
   s.description  = <<-DESC
                    Private Foundation to help coding.
@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
   s.dependency 'UITableView+FDTemplateLayoutCell'
   s.dependency 'UIView+FDCollapsibleConstraints'
   s.dependency 'FDStackView'
-  s.dependency 'XXNibBridge'
   s.dependency 'MBProgressHUD'
   s.dependency 'SSKeychain'
   

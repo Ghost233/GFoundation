@@ -17,6 +17,5 @@ pod 'UITableView+FDTemplateLayoutCell'
 pod 'UIView+FDCollapsibleConstraints'
 pod 'FDStackView'
 pod 'MBProgressHUD'
-pod 'SSKeychain'
 
 end

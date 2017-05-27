@@ -25,7 +25,6 @@ PODS:
   - Masonry (1.0.1)
   - MBProgressHUD (1.0.0)
   - pop (1.0.9)
-  - SSKeychain (1.4.1)
   - UITableView+FDTemplateLayoutCell (1.4)
   - UIView+FDCollapsibleConstraints (1.1)
   - YYKit (1.0.7):
@@ -41,7 +40,6 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - pop
-  - SSKeychain
   - UITableView+FDTemplateLayoutCell
   - UIView+FDCollapsibleConstraints
   - YYKit
@@ -55,11 +53,10 @@ SPEC CHECKSUMS:
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
-  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: fbb93850ba0ea510fa969c5f1db71bad13484ad7
+PODFILE CHECKSUM: 03f1e1f1e38bd90ff1bc8f72745c260a790cf3e6
 
 COCOAPODS: 1.0.1
